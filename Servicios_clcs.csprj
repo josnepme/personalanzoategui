@@ -1,0 +1,990 @@
+<codestructure version="5.15">
+<phptree>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;6;32;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;5;31;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/phpqrcode/qrlib.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;7;42;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\muestrapersonal.php;f9;1;32;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\verifica_usuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\verifica_registro.php;f9;27;32;27;;C:\xampp\htdocs\Servicios\Operaciones\registrar.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\periodo_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\mostrarimagen.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\guardarfoto.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\cargos_constancia.php;f11;3;34;3;;C:\xampp\htdocs\Servicios\Operaciones\cambioresp.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambioclave.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambio_correo.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambiausuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\busca_anno.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\borrarfoto.php;f10;1;33;1;;C:\xampp\htdocs\Servicios\Operaciones\autenticacion_login.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\nominas_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f9;1;32;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/class.phpmailer.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;3;47;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;2;47;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/class.smtp.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;4;42;4;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;3;42;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;2;31;2;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;2;31;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/seguridad.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\registrar.php;f9;3;36;3;;C:\xampp\htdocs\Servicios\Operaciones\cambioclave.php;f9;2;36;2;;C:\xampp\htdocs\Servicios\Operaciones\autenticacion_login.php;f9;3;36;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f9;2;36;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="FPDF_VERSION;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f8;9;20;9;;;;vpos;;v;;a;;r&apos;1.82&apos;;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="MAX_STRUCTURED_SYMBOLS;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;211;34;211;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f12;28;34;28;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;1041;34;1041;;;;vpos;;v;;a;;r&#10;Description&#10;     Max number of symbols for structured mode;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="N1;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;220;14;220;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f9;27;11;27;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;2499;11;2499;;;;vpos;;v;;a;;r&#10;Description&#10;     Down point base value for case 1 mask pattern (concatenation of same color in a line or a column);;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="N2;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;225;11;225;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f9;28;11;28;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;2500;11;2500;;;;vpos;;v;;a;;r&#10;Description&#10;     Down point base value for case 2 mask pattern (module block of same color);;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="N3;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;230;11;230;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f9;29;11;29;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;2501;11;2501;;;;vpos;;v;;a;;r&#10;Description&#10;     Down point base value for case 3 mask pattern (1:1:3:1:1(dark:bright:dark:bright:dark)pattern in a line or a column);;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="N4;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;235;11;235;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f9;30;11;30;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;2502;11;2502;;;;vpos;;v;;a;;r&#10;Description&#10;     Down point base value for case 4 mask pattern (ration of dark modules in whole);;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_CACHE_DIR;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;8;24;8;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;8;24;8;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;117;24;117;;;;vpos;;v;;a;;rfalse;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_CACHEABLE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;7;24;7;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;7;24;7;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;116;24;116;;;;vpos;;v;;a;;rfalse;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_DEFAULT_MASK;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;13;27;13;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;254;24;254;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;13;27;13;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;122;27;122;;;;vpos;;v;;a;;r2;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_ECLEVEL_H;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;158;21;158;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;42;21;42;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;90;21;90;;;;vpos;;v;;a;;r&#10;Description&#10;     Error correction level H : About 30% or less errors can be corrected.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_ECLEVEL_L;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;143;21;143;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;39;21;39;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;87;21;87;;;;vpos;;v;;a;;r&#10;Description&#10;     Error correction level L : About 7% or less errors can be corrected.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_ECLEVEL_M;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;148;21;148;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;40;21;40;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;88;21;88;;;;vpos;;v;;a;;r&#10;Description&#10;     Error correction level M : About 15% or less errors can be corrected.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_ECLEVEL_Q;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;153;21;153;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;41;21;41;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;89;21;89;;;;vpos;;v;;a;;r&#10;Description&#10;     Error correction level Q : About 25% or less errors can be corrected.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_FIND_BEST_MASK;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;11;29;11;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;244;26;244;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;11;29;11;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;120;29;120;;;;vpos;;v;;a;;rtrue;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_FIND_FROM_RANDOM;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;12;31;12;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;249;28;249;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;12;31;12;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;121;31;121;;;;vpos;;v;;a;;r2;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_FORMAT_PNG;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;47;22;47;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;95;22;95;;;;vpos;;v;;a;;r1;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_FORMAT_TEXT;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;46;23;46;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;94;23;94;;;;vpos;;v;;a;;r0;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_IMAGE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrimage.php;f12;24;20;24;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;935;20;935;;;;vpos;;v;;a;;rtrue;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_LOG_DIR;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;9;22;9;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;9;22;9;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;118;22;118;;;;vpos;;v;;a;;rfalse;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_8;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;33;18;33;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;81;18;81;;;;vpos;;v;;a;;r2;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_8B;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;122;19;122;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode 8bit byte data. In theory, 2953 characters or less can be stored in a QRcode.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_AN;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;117;19;117;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;32;19;32;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;80;19;80;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode alphanumeric (0-9A-Z $%*+-./:) 45characters. 2 characters are encoded to 11bit length. In theory, 4296 characters or less can be stored in a QRcode.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_KANJI;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;34;22;34;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;82;22;82;;;;vpos;;v;;a;;r3;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_KJ;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;127;19;127;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode KANJI. A KANJI character (multibyte character) is encoded to 13bit length. In theory, 1817 characters or less can be stored in a QRcode.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_NL;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;107;19;107;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_NM;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;112;19;112;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode numeric (0-9). 3 characters are encoded to 10bit length. In theory, 7089 characters or less can be stored in a QRcode.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_NUL;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;30;20;30;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;78;20;78;;;;vpos;;v;;a;;r-1;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_NUM;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;31;20;31;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;79;20;79;;;;vpos;;v;;a;;r0;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_ST;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;132;19;132;;;;vpos;;v;;a;;r&#10;Description&#10;     Encoding mode STRUCTURED (currently unsupported);;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_MODE_STRUCTURE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f9;35;26;35;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;83;26;83;;;;vpos;;v;;a;;r4;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QR_PNG_MAXIMUM_SIZE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\tools\merged_config.php;f12;15;31;15;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconfig.php;f12;15;31;15;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;124;31;124;;;;vpos;;v;;a;;r1024;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRCAP_EC;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;197;20;197;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;39;20;39;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;351;20;351;;;;vpos;;v;;a;;r&#10;Description&#10;     Matrix index to get error correction level from $capacity array.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRCAP_REMINDER;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;192;26;192;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;38;26;38;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;350;26;350;;;;vpos;;v;;a;;r&#10;Description&#10;     Matrix index to get remainder from $capacity array.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRCAP_WIDTH;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;182;23;182;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;36;23;36;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;348;23;348;;;;vpos;;v;;a;;r&#10;Description&#10;     Matrix index to get width from $capacity array.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRCAP_WORDS;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;187;23;187;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;37;23;37;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;349;23;349;;;;vpos;;v;;a;;r&#10;Description&#10;     Matrix index to get number of words from $capacity array.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRCODEDEFS;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;98;19;98;;;;vpos;;v;;a;;r&#10;Description&#10;     Indicate that definitions for this class are set;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="qrlib.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\index.php;f13;32;22;32;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRSPEC_VERSION_MAX;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;170;27;170;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;33;30;33;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;345;30;345;;;;vpos;;v;;a;;r&#10;Description&#10;     Maximum QR Code version.;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="QRSPEC_WIDTH_MAX;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;175;28;175;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f12;34;28;34;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;346;28;346;;;;vpos;;v;;a;;r&#10;Description&#10;     Maximum matrix size for maximum version (version 40 is 177*177 matrix).;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="STRUCTURE_HEADER_BITS;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;206;33;206;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f12;27;33;27;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f12;1040;33;1040;;;;vpos;;v;;a;;r&#10;Description&#10;     Number of header bits for structured mode;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Conexion;PHP:Class Name;C:\xampp\htdocs\Servicios\Conexion\conecta.php;f1;1;2;27;;;;vpos;;v;;a;;r;;d15,1;;b0,0;;m0;;e">
+<treenode node="abrircon;PHP:Function Name;C:\xampp\htdocs\Servicios\Conexion\conecta.php;f9;11;9;21;;;;vpos;;v;;a;;r;;d28,11;;b1,0;;m0;;e">
+</treenode>
+<treenode node="cerrarcon;PHP:Function Name;C:\xampp\htdocs\Servicios\Conexion\conecta.php;f9;23;4;25;;;;vpos;;v;;a;;r;;d29,23;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="FPDF;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;11;1;1893;;;;vpos;;v;;a;;r;;d0,12;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;73;1;169;;;;vpos;;v;;a;;r;;d0,74;;b0,0;;m0;;eorientation;;punit;;psize;;p">
+</treenode>
+<treenode node="_beginpage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1082;1;1127;;;;vpos;;v;;a;;r;;d0,1083;;b2,0;;m0;;eorientation;;psize;;protation;;p">
+</treenode>
+<treenode node="_checkoutput;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1043;1;1061;;;;vpos;;v;;a;;r;;d0,1044;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_dochecks;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1036;1;1041;;;;vpos;;v;;a;;r;;d0,1037;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_dounderline;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1224;1;1231;;;;vpos;;v;;a;;r;;d0,1225;;b2,0;;m0;;ex;;py;;ptxt;;p">
+</treenode>
+<treenode node="_enddoc;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1859;1;1892;;;;vpos;;v;;a;;r;;d0,1860;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_endpage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1129;1;1132;;;;vpos;;v;;a;;r;;d0,1130;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_escape;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1207;1;1214;;;;vpos;;v;;a;;r;;d0,1208;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="_getoffset;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1456;1;1459;;;;vpos;;v;;a;;r;;d0,1457;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_getpagesize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1063;1;1080;;;;vpos;;v;;a;;r;;d0,1064;;b2,0;;m0;;esize;;p">
+</treenode>
+<treenode node="_httpencode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1161;1;1172;;;;vpos;;v;;a;;r;;d0,1162;;b2,0;;m0;;eparam;;pvalue;;pisUTF8;;p">
+</treenode>
+<treenode node="_isascii;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1149;1;1159;;;;vpos;;v;;a;;r;;d0,1150;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="_loadfont;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1134;1;1147;;;;vpos;;v;;a;;r;;d0,1135;;b2,0;;m0;;efont;;p">
+</treenode>
+<treenode node="_newobj;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1461;1;1468;;;;vpos;;v;;a;;r;;d0,1462;;b2,0;;m0;;en;;p">
+</treenode>
+<treenode node="_out;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1438;1;1449;;;;vpos;;v;;a;;r;;d0,1439;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="_parsegif;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1413;1;1436;;;;vpos;;v;;a;;r;;d0,1414;;b2,0;;m0;;efile;;p">
+</treenode>
+<treenode node="_parsejpg;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1233;1;1250;;;;vpos;;v;;a;;r;;d0,1234;;b2,0;;m0;;efile;;p">
+</treenode>
+<treenode node="_parsepng;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1252;1;1261;;;;vpos;;v;;a;;r;;d0,1253;;b2,0;;m0;;efile;;p">
+</treenode>
+<treenode node="_parsepngstream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1263;1;1387;;;;vpos;;v;;a;;r;;d0,1264;;b2,0;;m0;;ef;;pfile;;p">
+</treenode>
+<treenode node="_put;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1451;1;1454;;;;vpos;;v;;a;;r;;d0,1452;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="_putcatalog;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1826;1;1845;;;;vpos;;v;;a;;r;;d0,1827;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putfonts;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1565;1;1680;;;;vpos;;v;;a;;r;;d0,1566;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putheader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1847;1;1850;;;;vpos;;v;;a;;r;;d0,1848;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putimage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1743;1;1786;;;;vpos;;v;;a;;r;;d0,1744;;b2,0;;m0;;einfo;;p">
+</treenode>
+<treenode node="_putimages;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1733;1;1741;;;;vpos;;v;;a;;r;;d0,1734;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putinfo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1818;1;1824;;;;vpos;;v;;a;;r;;d0,1819;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putpage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1493;1;1533;;;;vpos;;v;;a;;r;;d0,1494;;b2,0;;m0;;en;;p">
+</treenode>
+<treenode node="_putpages;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1535;1;1563;;;;vpos;;v;;a;;r;;d0,1536;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putresourcedict;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1794;1;1804;;;;vpos;;v;;a;;r;;d0,1795;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putresources;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1806;1;1816;;;;vpos;;v;;a;;r;;d0,1807;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putstream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1470;1;1475;;;;vpos;;v;;a;;r;;d0,1471;;b2,0;;m0;;edata;;p">
+</treenode>
+<treenode node="_putstreamobject;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1477;1;1491;;;;vpos;;v;;a;;r;;d0,1478;;b2,0;;m0;;edata;;p">
+</treenode>
+<treenode node="_puttrailer;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1852;1;1857;;;;vpos;;v;;a;;r;;d0,1853;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_putxobjectdict;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1788;1;1792;;;;vpos;;v;;a;;r;;d0,1789;;b2,0;;m0;;e">
+</treenode>
+<treenode node="_readint;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1406;1;1411;;;;vpos;;v;;a;;r;;d0,1407;;b2,0;;m0;;ef;;p">
+</treenode>
+<treenode node="_readstream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1389;1;1404;;;;vpos;;v;;a;;r;;d0,1390;;b2,0;;m0;;ef;;pn;;p">
+</treenode>
+<treenode node="_textstring;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1216;1;1222;;;;vpos;;v;;a;;r;;d0,1217;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="_tounicodecmap;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1682;1;1731;;;;vpos;;v;;a;;r;;d0,1683;;b2,0;;m0;;euv;;p">
+</treenode>
+<treenode node="_UTF8toUTF16;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f10;1174;1;1205;;;;vpos;;v;;a;;r;;d0,1175;;b2,0;;m0;;es;;p">
+</treenode>
+<treenode node="AcceptPageBreak;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;569;1;573;;;;vpos;;v;;a;;r;;d0,570;;b0,0;;m0;;e">
+</treenode>
+<treenode node="AddFont;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;446;1;469;;;;vpos;;v;;a;;r;;d0,447;;b0,0;;m0;;efamily;;pstyle;;pfile;;p">
+</treenode>
+<treenode node="AddLink;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;532;1;538;;;;vpos;;v;;a;;r;;d0,533;;b0,0;;m0;;e">
+</treenode>
+<treenode node="AddPage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;290;1;357;;;;vpos;;v;;a;;r;;d0,291;;b0,0;;m0;;eorientation;;psize;;protation;;p">
+</treenode>
+<treenode node="AliasNbPages;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;261;1;265;;;;vpos;;v;;a;;r;;d0,262;;b0,0;;m0;;ealias;;p">
+</treenode>
+<treenode node="Cell;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;575;1;653;;;;vpos;;v;;a;;r;;d0,576;;b0,0;;m0;;ew;;ph;;ptxt;;pborder;;pln;;palign;;pfill;;plink;;p">
+</treenode>
+<treenode node="Close;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;273;1;288;;;;vpos;;v;;a;;r;;d0,274;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Error;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;267;1;271;;;;vpos;;v;;a;;r;;d0,268;;b0,0;;m0;;emsg;;p">
+</treenode>
+<treenode node="Footer;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;364;1;367;;;;vpos;;v;;a;;r;;d0,365;;b0,0;;m0;;e">
+</treenode>
+<treenode node="GetPageHeight;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;934;1;938;;;;vpos;;v;;a;;r;;d0,935;;b0,0;;m0;;e">
+</treenode>
+<treenode node="GetPageWidth;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;928;1;932;;;;vpos;;v;;a;;r;;d0,929;;b0,0;;m0;;e">
+</treenode>
+<treenode node="GetStringWidth;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;408;1;418;;;;vpos;;v;;a;;r;;d0,409;;b0,0;;m0;;es;;p">
+</treenode>
+<treenode node="GetX;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;940;1;944;;;;vpos;;v;;a;;r;;d0,941;;b0,0;;m0;;e">
+</treenode>
+<treenode node="GetY;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;955;1;959;;;;vpos;;v;;a;;r;;d0,956;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Header;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;359;1;362;;;;vpos;;v;;a;;r;;d0,360;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Image;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;863;1;926;;;;vpos;;v;;a;;r;;d0,864;;b0,0;;m0;;efile;;px;;py;;pw;;ph;;ptype;;plink;;p">
+</treenode>
+<treenode node="Line;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;428;1;432;;;;vpos;;v;;a;;r;;d0,429;;b0,0;;m0;;ex1;;py1;;px2;;py2;;p">
+</treenode>
+<treenode node="Link;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;550;1;554;;;;vpos;;v;;a;;r;;d0,551;;b0,0;;m0;;ex;;py;;pw;;ph;;plink;;p">
+</treenode>
+<treenode node="Ln;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;853;1;861;;;;vpos;;v;;a;;r;;d0,854;;b0,0;;m0;;eh;;p">
+</treenode>
+<treenode node="MultiCell;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;655;1;768;;;;vpos;;v;;a;;r;;d0,656;;b0,0;;m0;;ew;;ph;;ptxt;;pborder;;palign;;pfill;;p">
+</treenode>
+<treenode node="Output;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;979;1;1030;;;;vpos;;v;;a;;r;;d0,980;;b0,0;;m0;;edest;;pname;;pisUTF8;;p">
+</treenode>
+<treenode node="PageNo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;369;1;373;;;;vpos;;v;;a;;r;;d0,370;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Rect;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;434;1;444;;;;vpos;;v;;a;;r;;d0,435;;b0,0;;m0;;ex;;py;;pw;;ph;;pstyle;;p">
+</treenode>
+<treenode node="SetAuthor;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;237;1;241;;;;vpos;;v;;a;;r;;d0,238;;b0,0;;m0;;eauthor;;pisUTF8;;p">
+</treenode>
+<treenode node="SetAutoPageBreak;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;201;1;207;;;;vpos;;v;;a;;r;;d0,202;;b0,0;;m0;;eauto;;pmargin;;p">
+</treenode>
+<treenode node="SetCompression;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;222;1;229;;;;vpos;;v;;a;;r;;d0,223;;b0,0;;m0;;ecompress;;p">
+</treenode>
+<treenode node="SetCreator;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;255;1;259;;;;vpos;;v;;a;;r;;d0,256;;b0,0;;m0;;ecreator;;pisUTF8;;p">
+</treenode>
+<treenode node="SetDisplayMode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;209;1;220;;;;vpos;;v;;a;;r;;d0,210;;b0,0;;m0;;ezoom;;playout;;p">
+</treenode>
+<treenode node="SetDrawColor;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;375;1;384;;;;vpos;;v;;a;;r;;d0,376;;b0,0;;m0;;er;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFillColor;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;386;1;396;;;;vpos;;v;;a;;r;;d0,387;;b0,0;;m0;;er;;pg;;pb;;p">
+</treenode>
+<treenode node="SetFont;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;471;1;519;;;;vpos;;v;;a;;r;;d0,472;;b0,0;;m0;;efamily;;pstyle;;psize;;p">
+</treenode>
+<treenode node="SetFontSize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;521;1;530;;;;vpos;;v;;a;;r;;d0,522;;b0,0;;m0;;esize;;p">
+</treenode>
+<treenode node="SetKeywords;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;249;1;253;;;;vpos;;v;;a;;r;;d0,250;;b0,0;;m0;;ekeywords;;pisUTF8;;p">
+</treenode>
+<treenode node="SetLeftMargin;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;181;1;187;;;;vpos;;v;;a;;r;;d0,182;;b0,0;;m0;;emargin;;p">
+</treenode>
+<treenode node="SetLineWidth;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;420;1;426;;;;vpos;;v;;a;;r;;d0,421;;b0,0;;m0;;ewidth;;p">
+</treenode>
+<treenode node="SetLink;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;540;1;548;;;;vpos;;v;;a;;r;;d0,541;;b0,0;;m0;;elink;;py;;ppage;;p">
+</treenode>
+<treenode node="SetMargins;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;171;1;179;;;;vpos;;v;;a;;r;;d0,172;;b0,0;;m0;;eleft;;ptop;;pright;;p">
+</treenode>
+<treenode node="SetRightMargin;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;195;1;199;;;;vpos;;v;;a;;r;;d0,196;;b0,0;;m0;;emargin;;p">
+</treenode>
+<treenode node="SetSubject;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;243;1;247;;;;vpos;;v;;a;;r;;d0,244;;b0,0;;m0;;esubject;;pisUTF8;;p">
+</treenode>
+<treenode node="SetTextColor;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;398;1;406;;;;vpos;;v;;a;;r;;d0,399;;b0,0;;m0;;er;;pg;;pb;;p">
+</treenode>
+<treenode node="SetTitle;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;231;1;235;;;;vpos;;v;;a;;r;;d0,232;;b0,0;;m0;;etitle;;pisUTF8;;p">
+</treenode>
+<treenode node="SetTopMargin;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;189;1;193;;;;vpos;;v;;a;;r;;d0,190;;b0,0;;m0;;emargin;;p">
+</treenode>
+<treenode node="SetX;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;946;1;953;;;;vpos;;v;;a;;r;;d0,947;;b0,0;;m0;;ex;;p">
+</treenode>
+<treenode node="SetXY;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;972;1;977;;;;vpos;;v;;a;;r;;d0,973;;b0,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="SetY;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;961;1;970;;;;vpos;;v;;a;;r;;d0,962;;b0,0;;m0;;ey;;presetX;;p">
+</treenode>
+<treenode node="Text;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;556;1;567;;;;vpos;;v;;a;;r;;d0,557;;b0,0;;m0;;ex;;py;;ptxt;;p">
+</treenode>
+<treenode node="Write;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\fpdf.php;f0;770;1;851;;;;vpos;;v;;a;;r;;d0,771;;b0,0;;m0;;eh;;ptxt;;plink;;p">
+</treenode>
+</treenode>
+<treenode node="FrameFiller;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f4;305;5;391;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;3113;5;3199;;;;vpos;;v;;a;;r;;d22,305;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;315;9;323;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3123;9;3131;;;;vpos;;v;;a;;r;;d8,316;;b1,0;;m0;;ewidth;;pframe;;p">
+</treenode>
+<treenode node="getFrameAt;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;332;9;335;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3140;9;3143;;;;vpos;;v;;a;;r;;d8,333;;b1,0;;m0;;eat;;p">
+</treenode>
+<treenode node="next;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;338;9;389;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3146;9;3197;;;;vpos;;v;;a;;r;;d8,339;;b1,0;;m0;;e">
+</treenode>
+<treenode node="setFrameAt;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;326;9;329;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3134;9;3137;;;;vpos;;v;;a;;r;;d8,327;;b1,0;;m0;;eat;;pval;;p">
+</treenode>
+</treenode>
+<treenode node="PDF;PHP:Class Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f0;118;1;309;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f0;9;1;188;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f0;15;1;188;;;;vpos;;v;;aFPDF;;c;;r;;d22,15;;b0,0;;m0;;e">
+<treenode node="_Arc;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;168;2;172;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;59;2;63;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;65;2;69;;;;vpos;;v;;a;;r;;d44,65;;b0,0;;m0;;ex1;;py1;;px2;;py2;;px3;;py3;;p">
+</treenode>
+<treenode node="CloseTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;238;2;246;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;129;2;137;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;135;2;143;;;;vpos;;v;;a;;r;;d24,135;;b0,0;;m0;;etag;;p">
+</treenode>
+<treenode node="Footer;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;299;2;308;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;183;2;186;;;;vpos;;v;;a;;r;;d18,183;;b0,0;;m0;;e">
+</treenode>
+<treenode node="Header;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;268;2;297;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;159;2;182;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;165;2;186;;;;vpos;;v;;a;;r;;d18,165;;b0,0;;m0;;e">
+</treenode>
+<treenode node="OpenTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;213;2;236;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;104;2;127;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;110;2;133;;;;vpos;;v;;a;;r;;d29,110;;b0,0;;m0;;etag;;pprop;;p">
+</treenode>
+<treenode node="PutLink;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;258;2;265;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;149;2;156;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;155;2;162;;;;vpos;;v;;a;;r;;d28,155;;b0,0;;m0;;eURL;;ptxt;;p">
+</treenode>
+<treenode node="RoundedRect;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;120;2;166;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;11;2;57;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;17;2;63;;;;vpos;;v;;a;;r;;d73,17;;b0,0;;m0;;ex;;py;;pw;;ph;;pr;;pcorners;;pstyle;;p">
+</treenode>
+<treenode node="SetStyle;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;248;2;256;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;139;2;147;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;145;2;153;;;;vpos;;v;;a;;r;;d32,145;;b0,0;;m0;;etag;;penable;;p">
+</treenode>
+<treenode node="WriteHTML;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;180;2;211;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;71;2;102;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;77;2;108;;;;vpos;;v;;a;;r;;d26,77;;b0,0;;m0;;ehtml;;p">
+</treenode>
+</treenode>
+<treenode node="PHPMailer;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f0;42;1;2311;;;;vpos;;v;;a;;r&#10;Definition&#10;    class PHPMailer&#10;&#10;Description&#10;     PHPMailer - PHP email transport class NOTE: Requires PHP version 5 or later;;d16,42;;b0,0;;m0;;e">
+<treenode node="STOP_CONTINUE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f7;330;21;330;;;;vpos;;v;;a;;r1;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="STOP_CRITICAL;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f7;331;21;331;;;;vpos;;v;;a;;r2;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="STOP_MESSAGE;PHP:PHP Word;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f7;329;20;329;;;;vpos;;v;;a;;r0;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;341;3;343;;;;vpos;;v;;a;;r&#10;Definition&#10;    __construct($exceptions = false)&#10;&#10;Description&#10;     Constructor&#10;&#10;Parameters:&#10;    boolean $exceptions - Should we throw external exceptions?;;d51,341;;b1,0;;m0;;eboolean $exceptions;;p">
+</treenode>
+<treenode node="_mime_types;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f16;2040;3;2131;;;;vpos;;v;;astring;;r&#10;Definition&#10;    _mime_types($ext = &apos;&apos;)&#10;&#10;Description&#10;     Gets the MIME type of the embedded or inline image&#10;&#10;Parameters:&#10;    string - File extension&#10;&#10;Return:&#10;   MIME type of ext;;d48,2040;;b1,5;;m0;;estring;;p">
+</treenode>
+<treenode node="AddAddress;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;406;3;408;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    AddAddress($address, $name = &apos;&apos;)&#10;&#10;Description&#10;     Adds a &quot;To&quot; address.&#10;&#10;Parameters:&#10;    string $address&#10;    string $name&#10;&#10;Return:&#10;   true on success, false if address already used;;d51,406;;b1,0;;m0;;estring $address;;pstring $name;;p">
+</treenode>
+<treenode node="AddAnAddress;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;451;1;479;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    AddAnAddress($kind, $address, $name = &apos;&apos;)&#10;&#10;Description&#10;     Adds an address to one of the recipient arrays Addresses that have been added already return false, but do not throw exceptions&#10;&#10;Parameters:&#10;    string $kind - One of &apos;to&apos;, &apos;cc&apos;, &apos;bcc&apos;, &apos;ReplyTo&apos;&#10;    string $address - The email address to send to&#10;    string $name&#10;&#10;Return:&#10;   true on success, false if address already used or invalid in some way;;d61,451;;b3,0;;m0;;estring $kind;;pstring $address;;pstring $name;;p">
+</treenode>
+<treenode node="AddAttachment;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1343;3;1375;;;;vpos;;v;;abool;;r&#10;Definition&#10;    AddAttachment($path, $name = &apos;&apos;, $encoding = &apos;base64&apos;, $type = &apos;application/octet-stream&apos;)&#10;&#10;Description&#10;     Adds an attachment from a path on the filesystem. Returns false if the file could not be found or accessed.&#10;&#10;Parameters:&#10;    string $path - Path to the attachment&#10;    string $name - Overrides the attachment name&#10;    string $encoding - File encoding (see $Encoding)&#10;    string $type - File extension (MIME) type;;d109,1343;;b1,0;;m0;;estring $path;;pstring $name;;pstring $encoding;;pstring $type;;p">
+</treenode>
+<treenode node="AddBCC;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;428;3;430;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    AddBCC($address, $name = &apos;&apos;)&#10;&#10;Description&#10;     Adds a &quot;Bcc&quot; address. Note: this function works with the SMTP mailer on win32, not with the &quot;mail&quot; mailer.&#10;&#10;Parameters:&#10;    string $address&#10;    string $name&#10;&#10;Return:&#10;   true on success, false if address already used;;d47,428;;b1,0;;m0;;estring $address;;pstring $name;;p">
+</treenode>
+<treenode node="AddCC;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;417;3;419;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    AddCC($address, $name = &apos;&apos;)&#10;&#10;Description&#10;     Adds a &quot;Cc&quot; address. Note: this function works with the SMTP mailer on win32, not with the &quot;mail&quot; mailer.&#10;&#10;Parameters:&#10;    string $address&#10;    string $name&#10;&#10;Return:&#10;   true on success, false if address already used;;d46,417;;b1,0;;m0;;estring $address;;pstring $name;;p">
+</treenode>
+<treenode node="AddCustomHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1993;3;1995;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    AddCustomHeader($custom_header)&#10;&#10;Description&#10;     Adds a custom header.;;d50,1993;;b1,0;;m0;;ecustom_header;;p">
+</treenode>
+<treenode node="AddEmbeddedImage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1782;3;1807;;;;vpos;;v;;abool;;r&#10;Definition&#10;    AddEmbeddedImage($path, $cid, $name = &apos;&apos;, $encoding = &apos;base64&apos;, $type = &apos;application/octet-stream&apos;)&#10;&#10;Description&#10;     Adds an embedded attachment.  This can include images, sounds, and just about any other document.  Make sure to set the $type to an image type.  For JPEG images use &quot;image/jpeg&quot; and for GIF images use &quot;image/gif&quot;.&#10;&#10;Parameters:&#10;    string $path - Path to the attachment&#10;    string $cid - Content ID of the attachment&#10;    string $name - Overrides the attachment name&#10;    string $encoding - File encoding (see $Encoding)&#10;    string $type - File extension (MIME) type;;d118,1782;;b1,0;;m0;;estring $path;;pstring $cid;;pstring $name;;pstring $encoding;;pstring $type;;p">
+</treenode>
+<treenode node="AddrAppend;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;896;3;906;;;;vpos;;v;;astring;;r&#10;Definition&#10;    AddrAppend($type, $addr)&#10;&#10;Description&#10;     Creates recipient headers.;;d43,896;;b1,0;;m0;;etype;;paddr;;p">
+</treenode>
+<treenode node="AddReplyTo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;438;3;440;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    AddReplyTo($address, $name = &apos;&apos;)&#10;&#10;Description&#10;     Adds a &quot;Reply-to&quot; address.&#10;&#10;Parameters:&#10;    string $address&#10;    string $name;;d51,438;;b1,0;;m0;;estring $address;;pstring $name;;p">
+</treenode>
+<treenode node="AddrFormat;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;913;3;919;;;;vpos;;v;;astring;;r&#10;Definition&#10;    AddrFormat($addr)&#10;&#10;Description&#10;     Formats an address correctly.;;d36,913;;b1,0;;m0;;eaddr;;p">
+</treenode>
+<treenode node="AddStringAttachment;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1755;3;1767;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    AddStringAttachment($string, $filename, $encoding = &apos;base64&apos;, $type = &apos;application/octet-stream&apos;)&#10;&#10;Description&#10;     Adds a string or binary attachment (non-filesystem) to the list. This method can be used to attach ascii or binary data, such as a BLOB record from a database.&#10;&#10;Parameters:&#10;    string $string - String attachment data&#10;    string $filename - Name of the attachment&#10;    string $encoding - File encoding (see $Encoding)&#10;    string $type - File extension (MIME) type;;d116,1755;;b1,0;;m0;;estring $string;;pstring $filename;;pstring $encoding;;pstring $type;;p">
+</treenode>
+<treenode node="AttachAll;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1391;3;1447;;;;vpos;;v;;astring;;r&#10;Definition&#10;    AttachAll()&#10;&#10;Description&#10;     Attaches all fs, string, and binary attachments to the message. Returns an empty string on failure.;;d31,1391;;b3,0;;m0;;e">
+</treenode>
+<treenode node="Base64EncodeWrapMB;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1598;3;1628;;;;vpos;;v;;astring;;r&#10;Definition&#10;    Base64EncodeWrapMB($str)&#10;&#10;Description&#10;     Correctly encodes and wraps long multibyte strings for mail headers without breaking lines within a character. Adapted from a function by paravoid at http://uk.php.net/manual/en/function.mb-encode-mimeheader.php&#10;&#10;Parameters:&#10;    string $str - multi-byte text to wrap encode;;d43,1598;;b1,0;;m0;;estring $str;;p">
+</treenode>
+<treenode node="ClearAddresses;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1831;3;1836;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearAddresses()&#10;&#10;Description&#10;     Clears all recipients assigned in the TO array.  Returns void.;;d35,1831;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearAllRecipients;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1873;3;1878;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearAllRecipients()&#10;&#10;Description&#10;     Clears all recipients assigned in the TO, CC and BCC array.  Returns void.;;d39,1873;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearAttachments;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1885;3;1887;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearAttachments()&#10;&#10;Description&#10;     Clears all previously set filesystem, string, and binary attachments.  Returns void.;;d37,1885;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearBCCs;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1853;3;1858;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearBCCs()&#10;&#10;Description&#10;     Clears all recipients assigned in the BCC array.  Returns void.;;d30,1853;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearCCs;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1842;3;1847;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearCCs()&#10;&#10;Description&#10;     Clears all recipients assigned in the CC array.  Returns void.;;d29,1842;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearCustomHeaders;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1893;3;1895;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearCustomHeaders()&#10;&#10;Description&#10;     Clears all custom headers.  Returns void.;;d39,1893;;b1,0;;m0;;e">
+</treenode>
+<treenode node="ClearReplyTos;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1864;3;1866;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    ClearReplyTos()&#10;&#10;Description&#10;     Clears all recipients assigned in the ReplyTo array.  Returns void.;;d34,1864;;b1,0;;m0;;e">
+</treenode>
+<treenode node="CreateBody;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1189;3;1256;;;;vpos;;v;;astring;;r&#10;Definition&#10;    CreateBody()&#10;&#10;Description&#10;     Assembles the message body.  Returns an empty string on failure.&#10;&#10;Return:&#10;   The assembled message body;;d31,1189;;b1,0;;m0;;e">
+</treenode>
+<treenode node="CreateHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1072;3;1148;;;;vpos;;v;;astring;;r&#10;Definition&#10;    CreateHeader()&#10;&#10;Description&#10;     Assembles message header.&#10;&#10;Return:&#10;   The assembled header;;d33,1072;;b1,0;;m0;;e">
+</treenode>
+<treenode node="DKIM_Add;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2270;3;2303;;;;vpos;;v;;a;;r&#10;Definition&#10;    DKIM_Add($headers_line,$subject,$body)&#10;&#10;Description&#10;     Create the DKIM header, body, as new header&#10;&#10;Parameters:&#10;    string $headers_line - Header lines&#10;    string $subject - Subject&#10;    string $body - Body;;d57,2270;;b1,0;;m0;;estring $headers_line;;pstring $subject;;pstring $body;;p">
+</treenode>
+<treenode node="DKIM_BodyC;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2250;3;2260;;;;vpos;;v;;a;;r&#10;Definition&#10;    DKIM_BodyC($body)&#10;&#10;Description&#10;     Generate DKIM Canonicalization Body&#10;&#10;Parameters:&#10;    string $body - Message Body;;d36,2250;;b1,0;;m0;;estring $body;;p">
+</treenode>
+<treenode node="DKIM_HeaderC;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2231;3;2242;;;;vpos;;v;;a;;r&#10;Definition&#10;    DKIM_HeaderC($s)&#10;&#10;Description&#10;     Generate DKIM Canonicalization Header&#10;&#10;Parameters:&#10;    string $s - Header;;d35,2231;;b1,0;;m0;;estring $s;;p">
+</treenode>
+<treenode node="DKIM_QP;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2193;3;2205;;;;vpos;;v;;a;;r&#10;Definition&#10;    DKIM_QP($txt)&#10;&#10;Description&#10;     Set the private key file and password to sign the message.&#10;&#10;Parameters:&#10;    string $key_filename - Parameter File Name&#10;    string $key_pass - Password for private key;;d32,2193;;b1,0;;m0;;etxt;;p">
+</treenode>
+<treenode node="DKIM_Sign;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2213;3;2223;;;;vpos;;v;;a;;r&#10;Definition&#10;    DKIM_Sign($s)&#10;&#10;Description&#10;     Generate DKIM signature&#10;&#10;Parameters:&#10;    string $s - Header;;d32,2213;;b1,0;;m0;;estring $s;;p">
+</treenode>
+<treenode node="doCallback;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f12;2305;3;2310;;;;vpos;;v;;a;;r;;d69,2305;;b2,0;;m0;;eisSent;;pto;;pcc;;pbcc;;psubject;;pbody;;p">
+</treenode>
+<treenode node="EncodeFile;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1458;3;1480;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeFile($path, $encoding = &apos;base64&apos;)&#10;&#10;Description&#10;     Encodes attachment in requested format. Returns an empty string on failure.&#10;&#10;Parameters:&#10;    string $path - The full path to the file&#10;    string $encoding - The encoding to use;s one of &apos;base64&apos;, &apos;7bit&apos;, &apos;8bit&apos;, &apos;binary&apos;, &apos;quoted-printable&apos;;;d59,1458;;b3,0;;m0;;estring $path;;pstring $encoding;;p">
+</treenode>
+<treenode node="EncodeHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1521;3;1574;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeHeader($str, $position = &apos;text&apos;)&#10;&#10;Description&#10;     Encode a header string to best (shortest) of Q, B, quoted or none.;;d57,1521;;b1,0;;m0;;estr;;pposition;;p">
+</treenode>
+<treenode node="EncodeQ;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1720;3;1743;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeQ ($str, $position = &apos;text&apos;)&#10;&#10;Description&#10;     Encode string to q encoding.&#10;&#10;Parameters:&#10;    string $str - the text to encode&#10;    string $position - Where the text is going to be used, see the RFC for what that means;;d53,1720;;b1,0;;m0;;estring $str;;pstring $position;;p">
+</treenode>
+<treenode node="EncodeQP;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1691;3;1710;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeQP($string, $line_max = 76, $space_conv = false)&#10;&#10;Description&#10;     Encode string to RFC2045 (6.7) quoted-printable format Uses a PHP5 stream filter to do the encoding about 64x faster than the old version Also results in same content as you started with after decoding&#10;&#10;Parameters:&#10;    string $string - the text to encode&#10;    integer $line_max - Number of chars allowed on a line before wrapping&#10;    boolean $space_conv - Dummy param for compatibility with existing EncodeQP function;;d73,1691;;b1,0;;m0;;estring $string;;pinteger $line_max;;pboolean $space_conv;;p">
+</treenode>
+<treenode node="EncodeQPphp;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1638;3;1677;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeQPphp( $input = &apos;&apos;, $line_max = 76, $space_conv = false)&#10;&#10;Description&#10;     Encode string to quoted-printable. Only uses standard PHP, slow, but will always work&#10;&#10;Parameters:&#10;    string $string - the text to encode&#10;    integer $line_max - Number of chars allowed on a line before wrapping;;d81,1638;;b1,0;;m0;;einput;;pline_max;;pspace_conv;;p">
+</treenode>
+<treenode node="EncodeString;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1490;3;1514;;;;vpos;;v;;astring;;r&#10;Definition&#10;    EncodeString ($str, $encoding = &apos;base64&apos;)&#10;&#10;Description&#10;     Encodes string to requested format. Returns an empty string on failure.&#10;&#10;Parameters:&#10;    string $str - The text to encode&#10;    string $encoding - The encoding to use;s one of &apos;base64&apos;, &apos;7bit&apos;, &apos;8bit&apos;, &apos;binary&apos;, &apos;quoted-printable&apos;;;d60,1490;;b1,0;;m0;;estring $str;;pstring $encoding;;p">
+</treenode>
+<treenode node="EndBoundary;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1286;3;1288;;;;vpos;;v;;a;;r&#10;Definition&#10;    EndBoundary($boundary)&#10;&#10;Description&#10;     Returns the end of a message boundary.;;d42,1286;;b3,0;;m0;;eboundary;;p">
+</treenode>
+<treenode node="FixEOL;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1981;3;1986;;;;vpos;;v;;astring;;r&#10;Definition&#10;    FixEOL($str)&#10;&#10;Description&#10;     Changes every end of line from CR or LF to CRLF.;;d32,1981;;b3,0;;m0;;estr;;p">
+</treenode>
+<treenode node="GetAttachments;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1381;3;1383;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    GetAttachments()&#10;&#10;Description&#10;     Return the current array of attachments;;d35,1381;;b1,0;;m0;;e">
+</treenode>
+<treenode node="GetBoundary;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1262;3;1280;;;;vpos;;v;;a;;r&#10;Definition&#10;    GetBoundary($boundary, $charSet, $contentType, $encoding)&#10;&#10;Description&#10;     Returns the start of a message boundary.;;d77,1262;;b3,0;;m0;;eboundary;;pcharSet;;pcontentType;;pencoding;;p">
+</treenode>
+<treenode node="GetMailMIME;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1155;3;1182;;;;vpos;;v;;astring;;r&#10;Definition&#10;    GetMailMIME()&#10;&#10;Description&#10;     Returns the message MIME.;;d32,1155;;b1,0;;m0;;e">
+</treenode>
+<treenode node="GetTranslations;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;883;3;885;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    GetTranslations()&#10;&#10;Description&#10;     Return the current array of language strings;;d36,883;;b1,0;;m0;;e">
+</treenode>
+<treenode node="HasMultiBytes;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1582;3;1588;;;;vpos;;v;;abool;;r&#10;Definition&#10;    HasMultiBytes($str)&#10;&#10;Description&#10;     Checks if a string contains multibyte characters.&#10;&#10;Parameters:&#10;    string $str - multi-byte text to wrap encode;;d38,1582;;b1,0;;m0;;estring $str;;p">
+</treenode>
+<treenode node="HeaderLine;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1316;3;1318;;;;vpos;;v;;astring;;r&#10;Definition&#10;    HeaderLine($name, $value)&#10;&#10;Description&#10;     Returns a formatted header line.;;d44,1316;;b1,0;;m0;;ename;;pvalue;;p">
+</treenode>
+<treenode node="InlineImageExists;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1814;3;1821;;;;vpos;;v;;abool;;r&#10;Definition&#10;    InlineImageExists()&#10;&#10;Description&#10;     Returns true if an inline attachment is present.;;d38,1814;;b1,0;;m0;;e">
+</treenode>
+<treenode node="IsError;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1972;3;1974;;;;vpos;;v;;abool;;r&#10;Definition&#10;    IsError()&#10;&#10;Description&#10;     Returns true if an error occurred.;;d28,1972;;b1,0;;m0;;e">
+</treenode>
+<treenode node="IsHTML;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;350;3;356;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    IsHTML($ishtml = true)&#10;&#10;Description&#10;     Sets message type to HTML.&#10;&#10;Parameters:&#10;    bool $ishtml;;d41,350;;b1,0;;m0;;ebool $ishtml;;p">
+</treenode>
+<treenode node="IsMail;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;370;3;372;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    IsMail()&#10;&#10;Description&#10;     Sets Mailer to send message using PHP mail() function.;;d27,370;;b1,0;;m0;;e">
+</treenode>
+<treenode node="IsQmail;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;389;3;394;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    IsQmail()&#10;&#10;Description&#10;     Sets Mailer to send message using the qmail MTA.;;d28,389;;b1,0;;m0;;e">
+</treenode>
+<treenode node="IsSendmail;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;378;3;383;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    IsSendmail()&#10;&#10;Description&#10;     Sets Mailer to send message using the $Sendmail program.;;d31,378;;b1,0;;m0;;e">
+</treenode>
+<treenode node="IsSMTP;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;362;3;364;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    IsSMTP()&#10;&#10;Description&#10;     Sets Mailer to send message using SMTP.;;d27,362;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Lang;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1955;3;1965;;;;vpos;;v;;astring;;r&#10;Definition&#10;    Lang($key)&#10;&#10;Description&#10;     Returns a message in the appropriate language.;;d30,1955;;b3,0;;m0;;ekey;;p">
+</treenode>
+<treenode node="MailSend;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f12;643;3;689;;;;vpos;;v;;abool;;r&#10;Definition&#10;    MailSend($header, $body)&#10;&#10;Description&#10;     Sends mail using the PHP mail() function.&#10;&#10;Parameters:&#10;    string $header - The message headers&#10;    string $body - The message body;;d46,643;;b2,0;;m0;;estring $header;;pstring $body;;p">
+</treenode>
+<treenode node="MsgHTML;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2002;3;2031;;;;vpos;;v;;a;;r&#10;Definition&#10;    MsgHTML($message, $basedir = &apos;&apos;)&#10;&#10;Description&#10;     Evaluates the message and returns modifications for inline images and backgrounds;;d51,2002;;b1,0;;m0;;emessage;;pbasedir;;p">
+</treenode>
+<treenode node="RFCDate;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f16;1923;3;1931;;;;vpos;;v;;astring;;r&#10;Definition&#10;    RFCDate()&#10;&#10;Description&#10;     Returns the proper RFC 822 formatted date.;;d35,1923;;b1,5;;m0;;e">
+</treenode>
+<treenode node="SecureHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2167;3;2171;;;;vpos;;v;;astring;;r&#10;Definition&#10;    SecureHeader($str)&#10;&#10;Description&#10;     Strips newlines to prevent header injection.&#10;&#10;Parameters:&#10;    string $str - String;;d37,2167;;b1,0;;m0;;estring $str;;p">
+</treenode>
+<treenode node="Send;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;544;3;588;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Send()&#10;&#10;Description&#10;     Creates message and assigns Mailer. If the message is not sent successfully then it returns false.  Use the ErrorInfo variable to view description of the error.;;d25,544;;b1,0;;m0;;e">
+</treenode>
+<treenode node="SendmailSend;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f12;597;3;634;;;;vpos;;v;;abool;;r&#10;Definition&#10;    SendmailSend($header, $body)&#10;&#10;Description&#10;     Sends mail using the $Sendmail program.&#10;&#10;Parameters:&#10;    string $header - The message headers&#10;    string $body - The message body;;d50,597;;b2,0;;m0;;estring $header;;pstring $body;;p">
+</treenode>
+<treenode node="ServerHostname;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1938;3;1948;;;;vpos;;v;;astring;;r&#10;Definition&#10;    ServerHostname()&#10;&#10;Description&#10;     Returns the server hostname or &apos;localhost.localdomain&apos; if unknown.;;d36,1938;;b3,0;;m0;;e">
+</treenode>
+<treenode node="set;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2145;3;2159;;;;vpos;;v;;a;;r&#10;Definition&#10;    set($name, $value = &apos;&apos;)&#10;&#10;Description&#10;     Set (or reset) Class Objects (variables)&#10;&#10;Parameters:&#10;    string $name - Parameter Name&#10;    mixed $value - Parameter Value;;d42,2145;;b1,0;;m0;;estring $name;;pmixed $value;;p">
+</treenode>
+<treenode node="SetError;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f12;1906;3;1915;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    SetError($msg)&#10;&#10;Description&#10;     Adds the error message to the error container.;;d36,1906;;b2,0;;m0;;emsg;;p">
+</treenode>
+<treenode node="SetFrom;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;487;3;509;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    SetFrom($address, $name = &apos;&apos;,$auto=1)&#10;&#10;Description&#10;     Set the From and FromName properties&#10;&#10;Parameters:&#10;    string $address&#10;    string $name;;d56,487;;b1,0;;m0;;eaddress;;pname;;pauto;;p">
+</treenode>
+<treenode node="SetLanguage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f2;849;3;877;;;;vpos;;v;;a;;r&#10;Definition&#10;    SetLanguage($langcode = &apos;en&apos;, $lang_path = &apos;language/&apos;)&#10;&#10;Description&#10;     Sets the language for all class error messages. Returns false if it cannot load the language file.  The default language is English.&#10;&#10;Parameters:&#10;    string $langcode - ISO 639-1 2-character language code (e&#10;    string $lang_path - Path to the language file directory;;d67,849;;b0,0;;m0;;estring $langcode;;pstring $lang_path;;p">
+</treenode>
+<treenode node="SetMessageType;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f10;1295;3;1309;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    SetMessageType()&#10;&#10;Description&#10;     Sets the message type.;;d36,1295;;b3,0;;m0;;e">
+</treenode>
+<treenode node="SetWordWrap;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1051;3;1065;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    SetWordWrap()&#10;&#10;Description&#10;     Set the body wrapping.;;d32,1051;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Sign;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2180;3;2184;;;;vpos;;v;;a;;r&#10;Definition&#10;    Sign($cert_filename, $key_filename, $key_pass)&#10;&#10;Description&#10;     Set the private key file and password to sign the message.&#10;&#10;Parameters:&#10;    string $key_filename - Parameter File Name&#10;    string $key_pass - Password for private key;;d65,2180;;b1,0;;m0;;ecert_filename;;pkey_filename;;pkey_pass;;p">
+</treenode>
+<treenode node="SmtpClose;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;833;3;840;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    SmtpClose()&#10;&#10;Description&#10;     Closes the active SMTP session if one exists.;;d30,833;;b1,0;;m0;;e">
+</treenode>
+<treenode node="SmtpConnect;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;771;3;827;;;;vpos;;v;;abool;;r&#10;Definition&#10;    SmtpConnect()&#10;&#10;Description&#10;     Initiates a connection to an SMTP server. Returns false if the operation failed.;;d32,771;;b1,0;;m0;;e">
+</treenode>
+<treenode node="SmtpSend;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f12;700;3;762;;;;vpos;;v;;abool;;r&#10;Definition&#10;    SmtpSend($header, $body)&#10;&#10;Description&#10;     Sends mail via SMTP using PhpSMTP Returns false if there is a bad MAIL FROM, RCPT, or DATA input.&#10;&#10;Parameters:&#10;    string $header - The message headers&#10;    string $body - The message body;;d46,700;;b2,0;;m0;;estring $header;;pstring $body;;p">
+</treenode>
+<treenode node="TextLine;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1325;3;1327;;;;vpos;;v;;astring;;r&#10;Definition&#10;    TextLine($value)&#10;&#10;Description&#10;     Returns a formatted mail line.;;d35,1325;;b1,0;;m0;;evalue;;p">
+</treenode>
+<treenode node="UTF8CharBoundary;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;1013;3;1043;;;;vpos;;v;;aint;;r&#10;Definition&#10;    UTF8CharBoundary($encodedText, $maxLength)&#10;&#10;Description&#10;     Finds last character boundary prior to maxLength in a utf-8 quoted (printable) encoded string. Original written by Colin Brown.&#10;&#10;Parameters:&#10;    string $encodedText - utf-8 QP text&#10;    int $maxLength - find last character boundary prior to this length;;d61,1013;;b1,0;;m0;;estring $encodedText;;pint $maxLength;;p">
+</treenode>
+<treenode node="ValidateAddress;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f16;522;3;532;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    ValidateAddress($address)&#10;&#10;Description&#10;     Check that a string looks roughly like an email address should Static so it can be used without instantiation Tries to use PHP built-in validator in the filter extension (from PHP 5.2), falls back to a reasonably competent regex validator Conforms approximately to RFC2822&#10;&#10;Parameters:&#10;    string $address - The email address to check;;d51,522;;b1,5;;m0;;estring $address;;p">
+</treenode>
+<treenode node="WrapText;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;931;3;1002;;;;vpos;;v;;astring;;r&#10;Definition&#10;    WrapText($message, $length, $qp_mode = false)&#10;&#10;Description&#10;     Wraps message for use with mailers that do not automatically perform wrapping and for quoted-printable. Original written by philippe.&#10;&#10;Parameters:&#10;    string $message - The message to wrap&#10;    integer $length - The line length to wrap to&#10;    boolean $qp_mode - Whether to run in Quoted-Printable mode;;d64,931;;b1,0;;m0;;estring $message;;pinteger $length;;pboolean $qp_mode;;p">
+</treenode>
+</treenode>
+<treenode node="phpmailerException;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f0;2313;1;2318;;;;vpos;;v;;aException;;c;;r;;d43,2313;;b0,0;;m0;;e">
+<treenode node="errorMessage;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f9;2314;3;2317;;;;vpos;;v;;a;;r;;d33,2314;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="QRbitstream;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f4;27;5;179;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;1776;5;1928;;;;vpos;;v;;a;;r;;d22,27;;b0,0;;m0;;e">
+<treenode node="allocate;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;38;9;42;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1787;9;1791;;;;vpos;;v;;a;;r;;d8,39;;b1,0;;m0;;esetLength;;p">
+</treenode>
+<treenode node="append;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;87;9;105;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1836;9;1854;;;;vpos;;v;;a;;r;;d8,88;;b1,0;;m0;;earg;;p">
+</treenode>
+<treenode node="appendBytes;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;125;9;139;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1874;9;1888;;;;vpos;;v;;a;;r;;d8,126;;b1,0;;m0;;esize;;pdata;;p">
+</treenode>
+<treenode node="appendNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;108;9;122;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1857;9;1871;;;;vpos;;v;;a;;r;;d8,109;;b1,0;;m0;;ebits;;pnum;;p">
+</treenode>
+<treenode node="newFromBytes;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f22;64;9;84;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1813;9;1833;;;;vpos;;v;;a;;r;;d8,65;;b1,5;;m0;;esize;;pdata;;p">
+</treenode>
+<treenode node="newFromNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f22;45;9;61;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1794;9;1810;;;;vpos;;v;;a;;r;;d8,46;;b1,5;;m0;;ebits;;pnum;;p">
+</treenode>
+<treenode node="size;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;32;9;35;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1781;9;1784;;;;vpos;;v;;a;;r;;d8,33;;b1,0;;m0;;e">
+</treenode>
+<treenode node="toByte;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrbitstream.php;f15;142;9;177;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1891;9;1926;;;;vpos;;v;;a;;r;;d8,143;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="QRcode;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f1;307;2;2871;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f4;155;5;301;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;2963;5;3109;;;;vpos;;v;;a;;r&#10;Definition&#10;    class QRcode&#10;&#10;Description&#10;     Class to create QR-code arrays for TCPDF class. QR Code symbol is a 2D barcode that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness. This class supports QR Code model 2, described in JIS (Japanese Industrial Standards) X0510:2004 or ISO/IEC 18004. Currently the following features are not supported: ECI and FNC1 mode, Micro QR Code, QR Code model 1, Structured mode.;;d14,307;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;655;3;686;;;;vpos;;v;;a;;r&#10;Definition&#10;    __construct($code, $eclevel = &apos;L&apos;)&#10;&#10;Description&#10;     This is the class constructor. Creates a QRcode object&#10;&#10;Parameters:&#10;    string $code - code to represent using QRcode&#10;    string $eclevel - error level: &lt;ul&gt;&lt;li&gt;L : About 7% or less errors can be corrected;;d53,655;;b1,0;;m0;;estring $code;;pstring $eclevel;;p">
+</treenode>
+<treenode node="allocate;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2137;3;2139;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    allocate($setLength)&#10;&#10;Description&#10;     Return an array with zeros&#10;&#10;Parameters:&#10;    int $setLength - array size;;d43,2137;;b2,0;;m0;;eint $setLength;;p">
+</treenode>
+<treenode node="appendBitstream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2191;3;2199;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    appendBitstream($bitstream, $append)&#10;&#10;Description&#10;     Append one bitstream to another&#10;&#10;Parameters:&#10;    array $bitstream - original bitstream&#10;    array $append - bitstream to append&#10;&#10;Return:&#10;   bitstream;;d59,2191;;b2,0;;m0;;earray $bitstream;;parray $append;;p">
+</treenode>
+<treenode node="appendBytes;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2223;3;2229;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    appendBytes($bitstream, $size, $data)&#10;&#10;Description&#10;     Append one bitstream created from bytes to another&#10;&#10;Parameters:&#10;    array $bitstream - original bitstream&#10;    int $size - size&#10;    array $data - bytes&#10;&#10;Return:&#10;   bitstream;;d60,2223;;b2,0;;m0;;earray $bitstream;;pint $size;;parray $data;;p">
+</treenode>
+<treenode node="appendNewInputItem;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;1709;3;1712;;;;vpos;;v;;aitems;;r&#10;Definition&#10;    appendNewInputItem($items, $mode, $size, $data)&#10;&#10;Description&#10;     Append data to an input object. The data is copied and appended to the input object.&#10;&#10;Parameters:&#10;    array - items input items&#10;    int $mode - encoding mode&#10;    int $size - size of data (byte)&#10;    array $data - array of input data;;d69,1709;;b2,0;;m0;;earray;;pint $mode;;pint $size;;parray $data;;p">
+</treenode>
+<treenode node="appendNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2208;3;2214;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    appendNum($bitstream, $bits, $num)&#10;&#10;Description&#10;     Append one bitstream created from number to another&#10;&#10;Parameters:&#10;    array $bitstream - original bitstream&#10;    int $bits - number of bits&#10;    int $num - number&#10;&#10;Return:&#10;   bitstream;;d57,2208;;b2,0;;m0;;earray $bitstream;;pint $bits;;pint $num;;p">
+</treenode>
+<treenode node="appendPaddingBit;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2069;3;2092;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    appendPaddingBit($bstream)&#10;&#10;Description&#10;     Append Padding Bit to bitstream&#10;&#10;Parameters:&#10;    array $bstream&#10;&#10;Return:&#10;   bitstream;;d49,2069;;b2,0;;m0;;earray $bstream;;p">
+</treenode>
+<treenode node="binarize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;702;3;711;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    binarize($frame)&#10;&#10;Description&#10;     Convert the frame in binary form&#10;&#10;Parameters:&#10;    array $frame - array to binarize&#10;&#10;Return:&#10;   frame in binary form;;d38,702;;b2,0;;m0;;earray $frame;;p">
+</treenode>
+<treenode node="bitstreamToByte;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2236;3;2263;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    bitstreamToByte($bstream)&#10;&#10;Description&#10;     Convert bitstream to bytes&#10;&#10;Parameters:&#10;    array $bitstream - original bitstream&#10;&#10;Return:&#10;   of bytes;;d48,2236;;b2,0;;m0;;earray $bitstream;;p">
+</treenode>
+<treenode node="calcN1N3;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1139;3;1162;;;;vpos;;v;;aint;;r&#10;Definition&#10;    calcN1N3($length)&#10;&#10;Description&#10;     calcN1N3&#10;&#10;Parameters:&#10;    int $length&#10;&#10;Return:&#10;   demerit;;d40,1139;;b2,0;;m0;;eint $length;;p">
+</treenode>
+<treenode node="calcParity;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1740;3;1750;;;;vpos;;v;;aint;;r&#10;Definition&#10;    calcParity($items)&#10;&#10;Description&#10;     calcParity&#10;&#10;Parameters:&#10;    array $items&#10;&#10;Return:&#10;   parity;;d41,1740;;b2,0;;m0;;earray $items;;p">
+</treenode>
+<treenode node="check;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;1873;3;1898;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    check($mode, $size, $data)&#10;&#10;Description&#10;     Validate the input data.&#10;&#10;Parameters:&#10;    int $mode - encoding mode&#10;    int $size - size of data (byte)&#10;    array - data data to validate&#10;&#10;Return:&#10;   true in case of valid data, false otherwise;;d48,1873;;b2,0;;m0;;eint $mode;;pint $size;;parray;;p">
+</treenode>
+<treenode node="checkModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1806;3;1813;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    checkModeAn($size, $data)&#10;&#10;Description&#10;     checkModeAn&#10;&#10;Parameters:&#10;    int $size&#10;    array $data&#10;&#10;Return:&#10;   true or false;;d48,1806;;b2,0;;m0;;eint $size;;parray $data;;p">
+</treenode>
+<treenode node="checkModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1853;3;1864;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    checkModeKanji($size, $data)&#10;&#10;Description&#10;     checkModeKanji&#10;&#10;Parameters:&#10;    int $size&#10;    array $data&#10;&#10;Return:&#10;   true or false;;d51,1853;;b2,0;;m0;;eint $size;;parray $data;;p">
+</treenode>
+<treenode node="checkModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1758;3;1765;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    checkModeNum($size, $data)&#10;&#10;Description&#10;     checkModeNum&#10;&#10;Parameters:&#10;    int $size&#10;    array $data&#10;&#10;Return:&#10;   true or false;;d49,1758;;b2,0;;m0;;eint $size;;parray $data;;p">
+</treenode>
+<treenode node="convertData;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2040;3;2062;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    convertData($items)&#10;&#10;Description&#10;     convertData&#10;&#10;Parameters:&#10;    array $items&#10;&#10;Return:&#10;   items;;d42,2040;;b2,0;;m0;;earray $items;;p">
+</treenode>
+<treenode node="createBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2025;3;2033;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    createBitStream($items)&#10;&#10;Description&#10;     createBitStream&#10;&#10;Parameters:&#10;    array $items&#10;&#10;Return:&#10;   of items and total bits;;d46,2025;;b2,0;;m0;;earray $items;;p">
+</treenode>
+<treenode node="createFrame;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2536;3;2594;;;;vpos;;v;;aArray;;r&#10;Definition&#10;    createFrame($version)&#10;&#10;Description&#10;     Return a copy of initialized frame.&#10;&#10;Parameters:&#10;    int $version - version&#10;&#10;Return:&#10;   of unsigned char;;d43,2536;;b2,0;;m0;;eint $version;;p">
+</treenode>
+<treenode node="eat8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1408;3;1451;;;;vpos;;v;;aint;;r&#10;Definition&#10;    eat8()&#10;&#10;Description&#10;     eat8&#10;&#10;Return:&#10;   run;;d29,1408;;b2,0;;m0;;e">
+</treenode>
+<treenode node="eatAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1356;3;1389;;;;vpos;;v;;aint;;r&#10;Definition&#10;    eatAn()&#10;&#10;Description&#10;     eatAn&#10;&#10;Return:&#10;   run;;d30,1356;;b2,0;;m0;;e">
+</treenode>
+<treenode node="eatKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1395;3;1402;;;;vpos;;v;;aint;;r&#10;Definition&#10;    eatKanji()&#10;&#10;Description&#10;     eatKanji&#10;&#10;Return:&#10;   run;;d33,1395;;b2,0;;m0;;e">
+</treenode>
+<treenode node="eatNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1324;3;1350;;;;vpos;;v;;aint;;r&#10;Definition&#10;    eatNum()&#10;&#10;Description&#10;     eatNum&#10;&#10;Return:&#10;   run;;d31,1324;;b2,0;;m0;;e">
+</treenode>
+<treenode node="encode_rs_char;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2836;3;2869;;;;vpos;;v;;aparity;;r&#10;Definition&#10;    encode_rs_char($rs, $data, $parity)&#10;&#10;Description&#10;     Encode a Reed-Solomon codec and returns the parity array&#10;&#10;Parameters:&#10;    array $rs - RS values&#10;    array $data - data&#10;    array $parity - parity&#10;&#10;Return:&#10;   array;;d58,2836;;b2,0;;m0;;earray $rs;;parray $data;;parray $parity;;p">
+</treenode>
+<treenode node="encodeBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1654;3;1693;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeBitStream($inputitem, $version)&#10;&#10;Description&#10;     encodeBitStream&#10;&#10;Parameters:&#10;    array $inputitem&#10;    int $version&#10;&#10;Return:&#10;   input item;;d60,1654;;b2,0;;m0;;earray $inputitem;;pint $version;;p">
+</treenode>
+<treenode node="encodeInput;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;237;9;240;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3045;9;3048;;;;vpos;;v;;a;;r;;d8,238;;b1,0;;m0;;einput;;p">
+</treenode>
+<treenode node="encodeMask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;733;3;787;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;162;9;234;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2970;9;3042;;;;vpos;;v;;a;;r&#10;Definition&#10;    encodeMask($mask)&#10;&#10;Description&#10;     Encode mask&#10;&#10;Parameters:&#10;    int $mask - masking mode;;d39,733;;b2,0;;m0;;eint $mask;;p">
+</treenode>
+<treenode node="encodeMode8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1600;3;1608;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeMode8($inputitem, $version)&#10;&#10;Description&#10;     encodeMode8&#10;&#10;Parameters:&#10;    array $inputitem&#10;    int $version&#10;&#10;Return:&#10;   input item;;d56,1600;;b2,0;;m0;;earray $inputitem;;pint $version;;p">
+</treenode>
+<treenode node="encodeModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1577;3;1592;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeModeAn($inputitem, $version)&#10;&#10;Description&#10;     encodeModeAn&#10;&#10;Parameters:&#10;    array $inputitem&#10;    int $version&#10;&#10;Return:&#10;   input item;;d57,1577;;b2,0;;m0;;earray $inputitem;;pint $version;;p">
+</treenode>
+<treenode node="encodeModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1616;3;1632;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeModeKanji($inputitem, $version)&#10;&#10;Description&#10;     encodeModeKanji&#10;&#10;Parameters:&#10;    array $inputitem&#10;    int $version&#10;&#10;Return:&#10;   input item;;d60,1616;;b2,0;;m0;;earray $inputitem;;pint $version;;p">
+</treenode>
+<treenode node="encodeModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1548;3;1569;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeModeNum($inputitem, $version)&#10;&#10;Description&#10;     encodeModeNum&#10;&#10;Parameters:&#10;    array $inputitem&#10;    int $version&#10;&#10;Return:&#10;   input item;;d58,1548;;b2,0;;m0;;earray $inputitem;;pint $version;;p">
+</treenode>
+<treenode node="encodeModeStructure;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1639;3;1646;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    encodeModeStructure($inputitem)&#10;&#10;Description&#10;     encodeModeStructure&#10;&#10;Parameters:&#10;    array $inputitem&#10;&#10;Return:&#10;   input item;;d54,1639;;b2,0;;m0;;earray $inputitem;;p">
+</treenode>
+<treenode node="encodeString;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;717;3;727;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;262;9;279;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3070;9;3087;;;;vpos;;v;;a;;r&#10;Definition&#10;    encodeString($string)&#10;&#10;Description&#10;     Encode the input string to QR code&#10;&#10;Parameters:&#10;    string $string - input string to encode;;d43,717;;b2,0;;m0;;estring $string;;p">
+</treenode>
+<treenode node="encodeString8bit;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;243;9;259;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3051;9;3067;;;;vpos;;v;;a;;r;;d8,244;;b1,0;;m0;;estring;;pversion;;plevel;;p">
+</treenode>
+<treenode node="estimateBitsMode8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1834;3;1836;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateBitsMode8($size)&#10;&#10;Description&#10;     estimateBitsMode8&#10;&#10;Parameters:&#10;    int $size&#10;&#10;Return:&#10;   number of bits;;d47,1834;;b2,0;;m0;;eint $size;;p">
+</treenode>
+<treenode node="estimateBitsModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1820;3;1827;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateBitsModeAn($size)&#10;&#10;Description&#10;     estimateBitsModeAn&#10;&#10;Parameters:&#10;    int $size&#10;&#10;Return:&#10;   number of bits;;d48,1820;;b2,0;;m0;;eint $size;;p">
+</treenode>
+<treenode node="estimateBitsModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1843;3;1845;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateBitsModeKanji($size)&#10;&#10;Description&#10;     estimateBitsModeKanji&#10;&#10;Parameters:&#10;    int $size&#10;&#10;Return:&#10;   number of bits;;d51,1843;;b2,0;;m0;;eint $size;;p">
+</treenode>
+<treenode node="estimateBitsModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1772;3;1789;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateBitsModeNum($size)&#10;&#10;Description&#10;     estimateBitsModeNum&#10;&#10;Parameters:&#10;    int $size&#10;&#10;Return:&#10;   number of bits;;d49,1772;;b2,0;;m0;;eint $size;;p">
+</treenode>
+<treenode node="estimateBitStreamSize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1906;3;1942;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateBitStreamSize($items, $version)&#10;&#10;Description&#10;     estimateBitStreamSize&#10;&#10;Parameters:&#10;    array $items&#10;    int $version&#10;&#10;Return:&#10;   bits;;d62,1906;;b2,0;;m0;;earray $items;;pint $version;;p">
+</treenode>
+<treenode node="estimateVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1949;3;1961;;;;vpos;;v;;aint;;r&#10;Definition&#10;    estimateVersion($items)&#10;&#10;Description&#10;     estimateVersion&#10;&#10;Parameters:&#10;    array $items&#10;&#10;Return:&#10;   version;;d46,1949;;b2,0;;m0;;earray $items;;p">
+</treenode>
+<treenode node="evaluateSymbol;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1170;3;1223;;;;vpos;;v;;aint;;r&#10;Definition&#10;    evaluateSymbol($width, $frame)&#10;&#10;Description&#10;     evaluateSymbol&#10;&#10;Parameters:&#10;    int $width&#10;    array $frame&#10;&#10;Return:&#10;   demerit;;d53,1170;;b2,0;;m0;;eint $width;;parray $frame;;p">
+</treenode>
+<treenode node="generateMaskNo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;1076;3;1089;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    generateMaskNo($maskNo, $width, $frame)&#10;&#10;Description&#10;     Return bitmask&#10;&#10;Parameters:&#10;    int $maskNo - mask number&#10;    int $width - width&#10;    array $frame - frame&#10;&#10;Return:&#10;   bitmask;;d61,1076;;b2,0;;m0;;eint $maskNo;;pint $width;;parray $frame;;p">
+</treenode>
+<treenode node="getBarcodeArray;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f9;693;3;695;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getBarcodeArray()&#10;&#10;Description&#10;     Returns a barcode array which is readable by TCPDF&#10;&#10;Return:&#10;   barcode array readable by TCPDF;s;;d36,693;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2113;3;2116;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getBitStream($items)&#10;&#10;Description&#10;     Returns a stream of bits.&#10;&#10;Parameters:&#10;    int $items&#10;&#10;Return:&#10;   padded merged byte stream;;d42,2113;;b2,0;;m0;;eint $items;;p">
+</treenode>
+<treenode node="getByteStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2123;3;2126;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getByteStream($items)&#10;&#10;Description&#10;     Pack all bit streams padding bits into a byte array.&#10;&#10;Parameters:&#10;    int $items&#10;&#10;Return:&#10;   padded merged byte stream;;d43,2123;;b2,0;;m0;;eint $items;;p">
+</treenode>
+<treenode node="getCode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;922;3;939;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getCode()&#10;&#10;Description&#10;     Return Reed-Solomon block code.&#10;&#10;Return:&#10;   rsblocks;;d31,922;;b2,0;;m0;;e">
+</treenode>
+<treenode node="getDataLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2289;3;2291;;;;vpos;;v;;aint;;r&#10;Definition&#10;    getDataLength($version, $level)&#10;&#10;Description&#10;     Return maximum data code length (bytes) for the version.&#10;&#10;Parameters:&#10;    int $version - version&#10;    int $level - error correction level&#10;&#10;Return:&#10;   maximum size (bytes);;d53,2289;;b2,0;;m0;;eint $version;;pint $level;;p">
+</treenode>
+<treenode node="getECCLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2299;3;2301;;;;vpos;;v;;aint;;r&#10;Definition&#10;    getECCLength($version, $level)&#10;&#10;Description&#10;     Return maximum error correction code length (bytes) for the version.&#10;&#10;Parameters:&#10;    int $version - version&#10;    int $level - error correction level&#10;&#10;Return:&#10;   ECC size (bytes);;d51,2299;;b2,0;;m0;;eint $version;;pint $level;;p">
+</treenode>
+<treenode node="getEccSpec;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2389;3;2411;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getEccSpec($version, $level, $spec)&#10;&#10;Description&#10;     Return an array of ECC specification.&#10;&#10;Parameters:&#10;    int $version - version&#10;    int $level - error correction level&#10;    array $spec - an array of ECC specification contains as following: {# of type1 blocks, # of data code, # of ecc code, # of type2 blocks, # of data code}&#10;&#10;Return:&#10;   spec;;d57,2389;;b2,0;;m0;;eint $version;;pint $level;;parray $spec;;p">
+</treenode>
+<treenode node="getFormatInfo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2497;3;2505;;;;vpos;;v;;aBCH;;r&#10;Definition&#10;    getFormatInfo($mask, $level)&#10;&#10;Description&#10;     Return BCH encoded format information pattern.&#10;&#10;Parameters:&#10;    array $mask&#10;    int $level - error correction level&#10;&#10;Return:&#10;   encoded format information pattern;;d50,2497;;b2,0;;m0;;earray $mask;;pint $level;;p">
+</treenode>
+<treenode node="getFrameAt;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;807;3;809;;;;vpos;;v;;avalue;;r&#10;Definition&#10;    getFrameAt($at)&#10;&#10;Description&#10;     Get frame value at specified position&#10;&#10;Parameters:&#10;    array $at - x,y position&#10;&#10;Return:&#10;   at specified position;;d37,807;;b2,0;;m0;;earray $at;;p">
+</treenode>
+<treenode node="getMinimumVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2327;3;2335;;;;vpos;;v;;aint;;r&#10;Definition&#10;    getMinimumVersion($size, $level)&#10;&#10;Description&#10;     Return a version number that satisfies the input code length.&#10;&#10;Parameters:&#10;    int $size - input code length (byte)&#10;    int $level - error correction level&#10;&#10;Return:&#10;   version number;;d54,2327;;b2,0;;m0;;eint $size;;pint $level;;p">
+</treenode>
+<treenode node="getNextPosition;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;815;3;860;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getNextPosition()&#10;&#10;Description&#10;     Return the next frame position&#10;&#10;Return:&#10;   of x,y coordinates;;d39,815;;b2,0;;m0;;e">
+</treenode>
+<treenode node="getRemainder;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2317;3;2319;;;;vpos;;v;;aint;;r&#10;Definition&#10;    getRemainder($version)&#10;&#10;Description&#10;     Return the numer of remainder bits.&#10;&#10;Parameters:&#10;    int $version - version&#10;&#10;Return:&#10;   number of remainder bits;;d44,2317;;b2,0;;m0;;eint $version;;p">
+</treenode>
+<treenode node="getVersionPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2484;3;2489;;;;vpos;;v;;aBCH;;r&#10;Definition&#10;    getVersionPattern($version)&#10;&#10;Description&#10;     Return BCH encoded version information pattern that is used for the symbol of version 7 or greater. Use lower 18 bits.&#10;&#10;Parameters:&#10;    int $version - version&#10;&#10;Return:&#10;   encoded version information pattern;;d49,2484;;b2,0;;m0;;eint $version;;p">
+</treenode>
+<treenode node="getWidth;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2308;3;2310;;;;vpos;;v;;aint;;r&#10;Definition&#10;    getWidth($version)&#10;&#10;Description&#10;     Return the width of the symbol for the version.&#10;&#10;Parameters:&#10;    int $version - version&#10;&#10;Return:&#10;   width;;d40,2308;;b2,0;;m0;;eint $version;;p">
+</treenode>
+<treenode node="identifyMode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1299;3;1318;;;;vpos;;v;;aint;;r&#10;Definition&#10;    identifyMode($pos)&#10;&#10;Description&#10;     identifyMode&#10;&#10;Parameters:&#10;    int $pos&#10;&#10;Return:&#10;   mode;;d41,1299;;b2,0;;m0;;eint $pos;;p">
+</treenode>
+<treenode node="init;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;871;3;916;;;;vpos;;v;;a;;r&#10;Definition&#10;    init($spec)&#10;&#10;Description&#10;     Initialize code.&#10;&#10;Parameters:&#10;    array $spec - array of ECC specification;;d33,871;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="init_rs;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2709;3;2720;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    init_rs($symsize, $gfpoly, $fcr, $prim, $nroots, $pad)&#10;&#10;Description&#10;     Initialize a Reed-Solomon codec and add it to existing rsitems&#10;&#10;Parameters:&#10;    int $symsize - symbol size, bits&#10;    int $gfpoly - Field generator polynomial coefficients&#10;    int $fcr - first root of RS code generator polynomial, index form&#10;    int $prim - primitive element to generate polynomial roots&#10;    int $nroots - RS code generator polynomial degree (number of roots)&#10;    int $pad - padding bytes at front of shortened block&#10;&#10;Return:&#10;   Array of RS values:&lt;ul&gt;&lt;li&gt;mm = Bits per symbol;s&lt;/li&gt;&lt;li&gt;nn = Symbols per block;s&lt;/li&gt;&lt;li&gt;alpha_to = log lookup table array;s&lt;/li&gt;&lt;li&gt;index_of = Antilog lookup table array;s&lt;/li&gt;&lt;li&gt;genpoly = Generator polynomial array;s&lt;/li&gt;&lt;li&gt;nroots = Number of generator;s&lt;/li&gt;&lt;li&gt;roots = number of parity symbols;s&lt;/li&gt;&lt;li&gt;fcr = First consecutive root, index form;s&lt;/li&gt;&lt;li&gt;prim = Primitive element, index form;s&lt;/li&gt;&lt;li&gt;iprim = prim-th root of 1, index form;s&lt;/li&gt;&lt;li&gt;pad = Padding bytes in shortened block;s&lt;/li&gt;&lt;li&gt;gfpoly&lt;/ul&gt;;;d77,2709;;b2,0;;m0;;eint $symsize;;pint $gfpoly;;pint $fcr;;pint $prim;;pint $nroots;;pint $pad;;p">
+</treenode>
+<treenode node="init_rs_char;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2750;3;2827;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    init_rs_char($symsize, $gfpoly, $fcr, $prim, $nroots, $pad)&#10;&#10;Description&#10;     Initialize a Reed-Solomon codec and returns an array of values.&#10;&#10;Parameters:&#10;    int $symsize - symbol size, bits&#10;    int $gfpoly - Field generator polynomial coefficients&#10;    int $fcr - first root of RS code generator polynomial, index form&#10;    int $prim - primitive element to generate polynomial roots&#10;    int $nroots - RS code generator polynomial degree (number of roots)&#10;    int $pad - padding bytes at front of shortened block&#10;&#10;Return:&#10;   Array of RS values:&lt;ul&gt;&lt;li&gt;mm = Bits per symbol;s&lt;/li&gt;&lt;li&gt;nn = Symbols per block;s&lt;/li&gt;&lt;li&gt;alpha_to = log lookup table array;s&lt;/li&gt;&lt;li&gt;index_of = Antilog lookup table array;s&lt;/li&gt;&lt;li&gt;genpoly = Generator polynomial array;s&lt;/li&gt;&lt;li&gt;nroots = Number of generator;s&lt;/li&gt;&lt;li&gt;roots = number of parity symbols;s&lt;/li&gt;&lt;li&gt;fcr = First consecutive root, index form;s&lt;/li&gt;&lt;li&gt;prim = Primitive element, index form;s&lt;/li&gt;&lt;li&gt;iprim = prim-th root of 1, index form;s&lt;/li&gt;&lt;li&gt;pad = Padding bytes in shortened block;s&lt;/li&gt;&lt;li&gt;gfpoly&lt;/ul&gt;;;d81,2750;;b2,0;;m0;;eint $symsize;;pint $gfpoly;;pint $fcr;;pint $prim;;pint $nroots;;pint $pad;;p">
+</treenode>
+<treenode node="insertStructuredAppendHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1722;3;1733;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    insertStructuredAppendHeader($items, $size, $index, $parity)&#10;&#10;Description&#10;     insertStructuredAppendHeader&#10;&#10;Parameters:&#10;    array $items&#10;    int $size&#10;    int $index&#10;    int $parity&#10;&#10;Return:&#10;   items;;d83,1722;;b2,0;;m0;;earray $items;;pint $size;;pint $index;;pint $parity;;p">
+</treenode>
+<treenode node="isalnumat;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1287;3;1292;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    isalnumat($str, $pos)&#10;&#10;Description&#10;     Return true if the character at specified position is an alphanumeric character&#10;&#10;Parameters:&#10;    string $str - string&#10;    int $pos - characted position&#10;&#10;Return:&#10;   true of false;;d44,1287;;b2,0;;m0;;estring $str;;pint $pos;;p">
+</treenode>
+<treenode node="isdigitat;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1274;3;1279;;;;vpos;;v;;aboolean;;r&#10;Definition&#10;    isdigitat($str, $pos)&#10;&#10;Description&#10;     Return true if the character at specified position is a number&#10;&#10;Parameters:&#10;    string $str - string&#10;    int $pos - characted position&#10;&#10;Return:&#10;   true of false;;d44,1274;;b2,0;;m0;;estring $str;;pint $pos;;p">
+</treenode>
+<treenode node="lengthIndicator;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2343;3;2355;;;;vpos;;v;;aint;;r&#10;Definition&#10;    lengthIndicator($mode, $version)&#10;&#10;Description&#10;     Return the size of length indicator for the mode and version.&#10;&#10;Parameters:&#10;    int $mode - encoding mode&#10;    int $version - version&#10;&#10;Return:&#10;   the size of the appropriate length indicator (bits);;d54,2343;;b2,0;;m0;;eint $mode;;pint $version;;p">
+</treenode>
+<treenode node="lengthOfCode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1970;3;2018;;;;vpos;;v;;aint;;r&#10;Definition&#10;    lengthOfCode($mode, $version, $bits)&#10;&#10;Description&#10;     lengthOfCode&#10;&#10;Parameters:&#10;    int $mode&#10;    int $version&#10;    int $bits&#10;&#10;Return:&#10;   size;;d59,1970;;b2,0;;m0;;eint $mode;;pint $version;;pint $bits;;p">
+</treenode>
+<treenode node="lookAnTable;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;1796;3;1798;;;;vpos;;v;;avalue;;r&#10;Definition&#10;    lookAnTable($c)&#10;&#10;Description&#10;     Look up the alphabet-numeric convesion table (see JIS X0510:2004, pp.19).&#10;&#10;Parameters:&#10;    int $c - character value;;d37,1796;;b2,0;;m0;;eint $c;;p">
+</treenode>
+<treenode node="makeMask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1127;3;1132;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    makeMask($width, $frame, $maskNo, $level)&#10;&#10;Description&#10;     makeMask&#10;&#10;Parameters:&#10;    int $width&#10;    array $frame&#10;    int $maskNo&#10;    int $level&#10;&#10;Return:&#10;   mask;;d64,1127;;b2,0;;m0;;eint $width;;parray $frame;;pint $maskNo;;pint $level;;p">
+</treenode>
+<treenode node="makeMaskNo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1100;3;1117;;;;vpos;;v;;aint;;r&#10;Definition&#10;    makeMaskNo($maskNo, $width, $s, &amp;$d, $maskGenOnly=false)&#10;&#10;Description&#10;     makeMaskNo&#10;&#10;Parameters:&#10;    int $maskNo&#10;    int $width&#10;    int $s&#10;    int $d&#10;    boolean $maskGenOnly&#10;&#10;Return:&#10;   b;;d79,1100;;b2,0;;m0;;eint $maskNo;;pint $width;;pint $s;;pint $d;;pboolean $maskGenOnly;;p">
+</treenode>
+<treenode node="mask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1232;3;1262;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    mask($width, $frame, $level)&#10;&#10;Description&#10;     mask&#10;&#10;Parameters:&#10;    int $width&#10;    array $frame&#10;    int $level&#10;&#10;Return:&#10;   best mask;;d51,1232;;b2,0;;m0;;eint $width;;parray $frame;;pint $level;;p">
+</treenode>
+<treenode node="mask0;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;995;3;997;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask0($x, $y)&#10;&#10;Description&#10;     mask0&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,995;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1005;3;1007;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask1($x, $y)&#10;&#10;Description&#10;     mask1&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1005;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1015;3;1017;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask2($x, $y)&#10;&#10;Description&#10;     mask2&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1015;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask3;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1025;3;1027;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask3($x, $y)&#10;&#10;Description&#10;     mask3&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1025;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask4;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1035;3;1037;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask4($x, $y)&#10;&#10;Description&#10;     mask4&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1035;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask5;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1045;3;1047;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask5($x, $y)&#10;&#10;Description&#10;     mask5&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1045;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask6;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1055;3;1057;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask6($x, $y)&#10;&#10;Description&#10;     mask6&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1055;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="mask7;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1065;3;1067;;;;vpos;;v;;aint;;r&#10;Definition&#10;    mask7($x, $y)&#10;&#10;Description&#10;     mask7&#10;&#10;Parameters:&#10;    int $x - X position&#10;    int $y - Y position&#10;&#10;Return:&#10;   mask;;d36,1065;;b2,0;;m0;;eint $x;;pint $y;;p">
+</treenode>
+<treenode node="maximumWords;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2363;3;2380;;;;vpos;;v;;aint;;r&#10;Definition&#10;    maximumWords($mode, $version)&#10;&#10;Description&#10;     Return the maximum length for the mode and version.&#10;&#10;Parameters:&#10;    int $mode - encoding mode&#10;    int $version - version&#10;&#10;Return:&#10;   the maximum length (bytes);;d51,2363;;b2,0;;m0;;eint $mode;;pint $version;;p">
+</treenode>
+<treenode node="mergeBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2099;3;2106;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    mergeBitStream($items)&#10;&#10;Description&#10;     mergeBitStream&#10;&#10;Parameters:&#10;    array $bstream&#10;&#10;Return:&#10;   bitstream;;d45,2099;;b2,0;;m0;;earray $bstream;;p">
+</treenode>
+<treenode node="modnn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2732;3;2738;;;;vpos;;v;;aint;;r&#10;Definition&#10;    modnn($rs, $x)&#10;&#10;Description&#10;     modnn&#10;&#10;Parameters:&#10;    array - RS values&#10;    int $x - X position&#10;&#10;Return:&#10;   X osition;;d37,2732;;b2,0;;m0;;earray;;pint $x;;p">
+</treenode>
+<treenode node="newFrame;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2601;3;2612;;;;vpos;;v;;aArray;;r&#10;Definition&#10;    newFrame($version)&#10;&#10;Description&#10;     Set new frame for the specified version.&#10;&#10;Parameters:&#10;    int $version - version&#10;&#10;Return:&#10;   of unsigned char;;d40,2601;;b2,0;;m0;;eint $version;;p">
+</treenode>
+<treenode node="newFromBytes;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2167;3;2183;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    newFromBytes($size, $data)&#10;&#10;Description&#10;     Return new bitstream from bytes&#10;&#10;Parameters:&#10;    int $size - size&#10;    array $data - bytes&#10;&#10;Return:&#10;   bitstream;;d49,2167;;b2,0;;m0;;eint $size;;parray $data;;p">
+</treenode>
+<treenode node="newFromNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2147;3;2159;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    newFromNum($bits, $num)&#10;&#10;Description&#10;     Return new bitstream from number&#10;&#10;Parameters:&#10;    int $bits - number of bits&#10;    int $num - number&#10;&#10;Return:&#10;   bitstream;;d46,2147;;b2,0;;m0;;eint $bits;;pint $num;;p">
+</treenode>
+<treenode node="newInputItem;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1526;3;1540;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    newInputItem($mode, $size, $data, $bstream=null)&#10;&#10;Description&#10;     newInputItem&#10;&#10;Parameters:&#10;    int $mode&#10;    int $size&#10;    array $data&#10;    array $bstream&#10;&#10;Return:&#10;   input item;;d71,1526;;b2,0;;m0;;eint $mode;;pint $size;;parray $data;;parray $bstream;;p">
+</treenode>
+<treenode node="png;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f22;282;9;286;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;3090;9;3094;;;;vpos;;v;;a;;r;;d8,283;;b1,5;;m0;;etext;;poutfile;;plevel;;psize;;pmargin;;psaveandprint;;p">
+</treenode>
+<treenode node="putAlignmentMarker;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2421;3;2435;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    putAlignmentMarker($frame, $ox, $oy)&#10;&#10;Description&#10;     Put an alignment marker.&#10;&#10;Parameters:&#10;    array $frame - frame&#10;    int $width - width&#10;    int $ox - X center coordinate of the pattern&#10;    int $oy - Y center coordinate of the pattern&#10;&#10;Return:&#10;   frame;;d58,2421;;b2,0;;m0;;eframe;;pox;;poy;;p">
+</treenode>
+<treenode node="putAlignmentPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2444;3;2477;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    putAlignmentPattern($version, $frame, $width)&#10;&#10;Description&#10;     Put an alignment pattern.&#10;&#10;Parameters:&#10;    int $version - version&#10;    array $fram - frame&#10;    int $width - width&#10;&#10;Return:&#10;   frame;;d68,2444;;b2,0;;m0;;eint $version;;parray $fram;;pint $width;;p">
+</treenode>
+<treenode node="putFinderPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;2515;3;2529;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    putFinderPattern($frame, $ox, $oy)&#10;&#10;Description&#10;     Put a finder pattern.&#10;&#10;Parameters:&#10;    array $frame - frame&#10;    int $width - width&#10;    int $ox - X center coordinate of the pattern&#10;    int $oy - Y center coordinate of the pattern&#10;&#10;Return:&#10;   frame;;d56,2515;;b2,0;;m0;;eframe;;pox;;poy;;p">
+</treenode>
+<treenode node="qrstrset;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2278;3;2281;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    qrstrset($srctab, $x, $y, $repl, $replLen=false)&#10;&#10;Description&#10;     Replace a value on the array at the specified position&#10;&#10;Parameters:&#10;    array $srctab&#10;    int $x - X position&#10;    int $y - Y position&#10;    string $repl - value to replace&#10;    int $replLen - length of the repl string&#10;&#10;Return:&#10;   srctab;;d71,2278;;b2,0;;m0;;earray $srctab;;pint $x;;pint $y;;pstring $repl;;pint $replLen;;p">
+</treenode>
+<treenode node="raw;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f22;296;9;300;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;3104;9;3108;;;;vpos;;v;;a;;r;;d8,297;;b1,5;;m0;;etext;;poutfile;;plevel;;psize;;pmargin;;p">
+</treenode>
+<treenode node="rsBlockNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2619;3;2621;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsBlockNum($spec)&#10;&#10;Description&#10;     Return block number 0&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d40,2619;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsBlockNum1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2628;3;2630;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsBlockNum1($spec)&#10;&#10;Description&#10;     Return block number 1&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d41,2628;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsBlockNum2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2655;3;2657;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsBlockNum2($spec)&#10;&#10;Description&#10;     Return block number 2&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d41,2655;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsDataCodes1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2637;3;2639;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsDataCodes1($spec)&#10;&#10;Description&#10;     Return data codes 1&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d42,2637;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsDataCodes2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2664;3;2666;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsDataCodes2($spec)&#10;&#10;Description&#10;     Return data codes 2&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d42,2664;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsDataLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2682;3;2684;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsDataLength($spec)&#10;&#10;Description&#10;     Return data length&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d42,2682;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsEccCodes1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2646;3;2648;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsEccCodes1($spec)&#10;&#10;Description&#10;     Return ecc codes 1&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d41,2646;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsEccCodes2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2673;3;2675;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsEccCodes2($spec)&#10;&#10;Description&#10;     Return ecc codes 2&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d41,2673;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="rsEccLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;2691;3;2693;;;;vpos;;v;;aint;;r&#10;Definition&#10;    rsEccLength($spec)&#10;&#10;Description&#10;     Return ecc length&#10;&#10;Parameters:&#10;    array $spec&#10;&#10;Return:&#10;   value;;d41,2691;;b2,0;;m0;;earray $spec;;p">
+</treenode>
+<treenode node="setFrameAt;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f12;798;3;800;;;;vpos;;v;;a;;r&#10;Definition&#10;    setFrameAt($at, $val)&#10;&#10;Description&#10;     Set frame value at specified position&#10;&#10;Parameters:&#10;    array $at - x,y position&#10;    int $val - value of the character to set;;d43,798;;b2,0;;m0;;earray $at;;pint $val;;p">
+</treenode>
+<treenode node="splitString;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1456;3;1492;;;;vpos;;v;;a;;r&#10;Definition&#10;    splitString()&#10;&#10;Description&#10;     splitString;;d36,1456;;b2,0;;m0;;e">
+</treenode>
+<treenode node="text;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f22;289;9;293;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;3097;9;3101;;;;vpos;;v;;a;;r;;d8,290;;b1,5;;m0;;etext;;poutfile;;plevel;;psize;;pmargin;;p">
+</treenode>
+<treenode node="toUpper;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;1497;3;1512;;;;vpos;;v;;a;;r&#10;Definition&#10;    toUpper()&#10;&#10;Description&#10;     toUpper;;d32,1497;;b2,0;;m0;;e">
+</treenode>
+<treenode node="writeFormatInformation;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f13;953;3;987;;;;vpos;;v;;aint;;r&#10;Definition&#10;    writeFormatInformation($width, &amp;$frame, $mask, $level)&#10;&#10;Description&#10;     Write Format Information on frame and returns the number of black bits&#10;&#10;Parameters:&#10;    int $width - frame width&#10;    array $frame - frame&#10;    array $mask - masking mode&#10;    int $level - error correction level&#10;&#10;Return:&#10;   blacks;;d77,953;;b2,0;;m0;;eint $width;;parray $frame;;parray $mask;;pint $level;;p">
+</treenode>
+</treenode>
+<treenode node="QRencode;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f4;395;5;501;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;3203;5;3309;;;;vpos;;v;;a;;r;;d19,395;;b0,0;;m0;;e">
+<treenode node="encode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;459;9;476;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3267;9;3284;;;;vpos;;v;;a;;r;;d8,460;;b1,0;;m0;;eintext;;poutfile;;p">
+</treenode>
+<treenode node="encodePNG;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;479;9;500;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3287;9;3308;;;;vpos;;v;;a;;r;;d8,480;;b1,0;;m0;;eintext;;poutfile;;psaveandprint;;p">
+</treenode>
+<treenode node="encodeRAW;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;445;9;456;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3253;9;3264;;;;vpos;;v;;a;;r;;d8,446;;b1,0;;m0;;eintext;;poutfile;;p">
+</treenode>
+<treenode node="factory;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f22;410;9;442;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;3218;9;3250;;;;vpos;;v;;a;;r;;d8,411;;b1,5;;m0;;elevel;;psize;;pmargin;;p">
+</treenode>
+</treenode>
+<treenode node="QRimage;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrimage.php;f4;26;5;94;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;937;5;1005;;;;vpos;;v;;a;;r;;d18,26;;b0,0;;m0;;e">
+<treenode node="image;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrimage.php;f23;65;9;93;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f23;976;9;1004;;;;vpos;;v;;a;;r;;d8,66;;b3,5;;m0;;eframe;;ppixelPerPoint;;pouterFrame;;p">
+</treenode>
+<treenode node="jpg;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrimage.php;f22;50;9;62;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;961;9;973;;;;vpos;;v;;a;;r;;d8,51;;b1,5;;m0;;eframe;;pfilename;;ppixelPerPoint;;pouterFrame;;pq;;p">
+</treenode>
+<treenode node="png;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrimage.php;f22;29;9;47;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;940;9;958;;;;vpos;;v;;a;;r;;d8,30;;b1,5;;m0;;eframe;;pfilename;;ppixelPerPoint;;pouterFrame;;psaveandprint;;p">
+</treenode>
+</treenode>
+<treenode node="QRinput;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f4;273;5;725;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;1286;5;1738;;;;vpos;;v;;a;;r;;d18,273;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;281;9;290;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1294;9;1303;;;;vpos;;v;;a;;r;;d8,282;;b1,0;;m0;;eversion;;plevel;;p">
+</treenode>
+<treenode node="append;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;337;9;346;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1350;9;1359;;;;vpos;;v;;a;;r;;d8,338;;b1,0;;m0;;emode;;psize;;pdata;;p">
+</treenode>
+<treenode node="appendEntry;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;331;9;334;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1344;9;1347;;;;vpos;;v;;a;;r;;d8,332;;b1,0;;m0;;eentry;;p">
+</treenode>
+<treenode node="appendPaddingBit;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;634;9;676;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1647;9;1689;;;;vpos;;v;;a;;r;;d8,635;;b1,0;;m0;;ebstream;;p">
+</treenode>
+<treenode node="calcParity;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;372;9;385;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1385;9;1398;;;;vpos;;v;;a;;r;;d8,373;;b1,0;;m0;;e">
+</treenode>
+<treenode node="check;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;496;9;513;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1509;9;1526;;;;vpos;;v;;a;;r;;d8,497;;b1,5;;m0;;emode;;psize;;pdata;;p">
+</treenode>
+<treenode node="checkModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;438;9;447;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1451;9;1460;;;;vpos;;v;;a;;r;;d8,439;;b1,5;;m0;;esize;;pdata;;p">
+</treenode>
+<treenode node="checkModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;475;9;490;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1488;9;1503;;;;vpos;;v;;a;;r;;d8,476;;b1,5;;m0;;esize;;pdata;;p">
+</treenode>
+<treenode node="checkModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;388;9;397;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1401;9;1410;;;;vpos;;v;;a;;r;;d8,389;;b1,5;;m0;;esize;;pdata;;p">
+</treenode>
+<treenode node="convertData;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;606;9;631;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1619;9;1644;;;;vpos;;v;;a;;r;;d8,607;;b1,0;;m0;;e">
+</treenode>
+<treenode node="createBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;589;9;603;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1602;9;1616;;;;vpos;;v;;a;;r;;d8,590;;b1,0;;m0;;e">
+</treenode>
+<treenode node="estimateBitsMode8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;463;9;466;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1476;9;1479;;;;vpos;;v;;a;;r;;d8,464;;b1,5;;m0;;esize;;p">
+</treenode>
+<treenode node="estimateBitsModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;450;9;460;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1463;9;1473;;;;vpos;;v;;a;;r;;d8,451;;b1,5;;m0;;esize;;p">
+</treenode>
+<treenode node="estimateBitsModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;469;9;472;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1482;9;1485;;;;vpos;;v;;a;;r;;d8,470;;b1,0;;m0;;esize;;p">
+</treenode>
+<treenode node="estimateBitsModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;400;9;417;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1413;9;1430;;;;vpos;;v;;a;;r;;d8,401;;b1,5;;m0;;esize;;p">
+</treenode>
+<treenode node="estimateBitStreamSize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;517;9;526;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1530;9;1539;;;;vpos;;v;;a;;r;;d8,518;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="estimateVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;529;9;543;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1542;9;1556;;;;vpos;;v;;a;;r;;d8,530;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;698;9;713;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1711;9;1726;;;;vpos;;v;;a;;r;;d8,699;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getByteStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;716;9;724;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1729;9;1737;;;;vpos;;v;;a;;r;;d8,717;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getErrorCorrectionLevel;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;312;9;315;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1325;9;1328;;;;vpos;;v;;a;;r;;d8,313;;b1,0;;m0;;e">
+</treenode>
+<treenode node="getVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;293;9;296;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1306;9;1309;;;;vpos;;v;;a;;r;;d8,294;;b1,0;;m0;;e">
+</treenode>
+<treenode node="insertStructuredAppendHeader;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;350;9;369;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1363;9;1382;;;;vpos;;v;;a;;r;;d8,351;;b1,0;;m0;;esize;;pindex;;pparity;;p">
+</treenode>
+<treenode node="lengthOfCode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;546;9;586;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1559;9;1599;;;;vpos;;v;;a;;r;;d8,547;;b1,5;;m0;;emode;;pversion;;pbits;;p">
+</treenode>
+<treenode node="lookAnTable;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f22;432;9;435;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1445;9;1448;;;;vpos;;v;;a;;r;;d8,433;;b1,5;;m0;;ec;;p">
+</treenode>
+<treenode node="mergeBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;679;9;695;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1692;9;1708;;;;vpos;;v;;a;;r;;d8,680;;b1,0;;m0;;e">
+</treenode>
+<treenode node="setErrorCorrectionLevel;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;318;9;328;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1331;9;1341;;;;vpos;;v;;a;;r;;d8,319;;b1,0;;m0;;elevel;;p">
+</treenode>
+<treenode node="setVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;299;9;309;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1312;9;1322;;;;vpos;;v;;a;;r;;d8,300;;b1,0;;m0;;eversion;;p">
+</treenode>
+</treenode>
+<treenode node="QRinputItem;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f4;30;5;269;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;1043;5;1282;;;;vpos;;v;;a;;r;;d22,30;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;37;9;54;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1050;9;1067;;;;vpos;;v;;a;;r;;d8,38;;b1,0;;m0;;emode;;psize;;pdata;;pbstream;;p">
+</treenode>
+<treenode node="encodeBitStream;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;222;9;268;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1235;9;1281;;;;vpos;;v;;a;;r;;d8,223;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="encodeMode8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;123;9;141;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1136;9;1154;;;;vpos;;v;;a;;r;;d8,124;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="encodeModeAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;93;9;120;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1106;9;1133;;;;vpos;;v;;a;;r;;d8,94;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="encodeModeKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;144;9;173;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1157;9;1186;;;;vpos;;v;;a;;r;;d8,145;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="encodeModeNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;57;9;90;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1070;9;1103;;;;vpos;;v;;a;;r;;d8,58;;b1,0;;m0;;eversion;;p">
+</treenode>
+<treenode node="encodeModeStructure;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;176;9;192;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1189;9;1205;;;;vpos;;v;;a;;r;;d8,177;;b1,0;;m0;;e">
+</treenode>
+<treenode node="estimateBitStreamSizeOfEntry;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrinput.php;f15;195;9;219;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1208;9;1232;;;;vpos;;v;;a;;r;;d8,196;;b1,0;;m0;;eversion;;p">
+</treenode>
+</treenode>
+<treenode node="QRmask;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f1;32;5;327;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f1;2504;5;2799;;;;vpos;;v;;a;;r;;d14,32;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f9;37;9;40;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f9;2509;9;2512;;;;vpos;;v;;a;;r;;d8,38;;b1,0;;m0;;e">
+</treenode>
+<treenode node="calcN1N3;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;188;9;214;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2660;9;2686;;;;vpos;;v;;a;;r;;d8,189;;b1,0;;m0;;elength;;p">
+</treenode>
+<treenode node="evaluateSymbol;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;217;9;280;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2689;9;2752;;;;vpos;;v;;a;;r;;d8,218;;b1,0;;m0;;ewidth;;pframe;;p">
+</treenode>
+<treenode node="generateMaskNo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f16;97;9;114;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f16;2569;9;2586;;;;vpos;;v;;a;;r;;d8,98;;b3,0;;m0;;emaskNo;;pwidth;;pframe;;p">
+</treenode>
+<treenode node="makeMask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;178;9;185;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2650;9;2657;;;;vpos;;v;;a;;r;;d8,179;;b1,0;;m0;;ewidth;;pframe;;pmaskNo;;plevel;;p">
+</treenode>
+<treenode node="makeMaskNo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;140;9;175;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2612;9;2647;;;;vpos;;v;;a;;r;;d8,141;;b1,0;;m0;;emaskNo;;pwidth;;ps;;pd;;pmaskGenOnly;;p">
+</treenode>
+<treenode node="mask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;284;9;324;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2756;9;2796;;;;vpos;;v;;a;;r;;d8,285;;b1,0;;m0;;ewidth;;pframe;;plevel;;p">
+</treenode>
+<treenode node="mask0;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;87;81;87;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2559;81;2559;;;;vpos;;v;;a;;r;;d38,87;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;88;81;88;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2560;81;2560;;;;vpos;;v;;a;;r;;d38,88;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;89;81;89;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2561;81;2561;;;;vpos;;v;;a;;r;;d38,89;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask3;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;90;81;90;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2562;81;2562;;;;vpos;;v;;a;;r;;d38,90;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask4;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;91;81;91;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2563;81;2563;;;;vpos;;v;;a;;r;;d38,91;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask5;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;92;81;92;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2564;81;2564;;;;vpos;;v;;a;;r;;d38,92;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask6;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;93;81;93;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2565;81;2565;;;;vpos;;v;;a;;r;;d38,93;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="mask7;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;94;81;94;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2566;81;2566;;;;vpos;;v;;a;;r;;d38,94;;b1,0;;m0;;ex;;py;;p">
+</treenode>
+<treenode node="serial;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f22;117;9;125;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;2589;9;2597;;;;vpos;;v;;a;;r;;d8,118;;b1,5;;m0;;ebitFrame;;p">
+</treenode>
+<treenode node="unserial;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f22;128;9;137;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;2600;9;2609;;;;vpos;;v;;a;;r;;d8,129;;b1,5;;m0;;ecode;;p">
+</treenode>
+<treenode node="writeFormatInformation;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrmask.php;f15;43;9;84;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2515;9;2556;;;;vpos;;v;;a;;r;;d8,44;;b1,0;;m0;;ewidth;;pframe;;pmask;;plevel;;p">
+</treenode>
+</treenode>
+<treenode node="QRrawcode;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f4;46;5;151;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;2854;5;2959;;;;vpos;;v;;a;;r;;d20,46;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;58;9;83;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2866;9;2891;;;;vpos;;v;;a;;r;;d8,59;;b1,0;;m0;;einput;;p">
+</treenode>
+<treenode node="getCode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;129;9;150;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2937;9;2958;;;;vpos;;v;;a;;r;;d8,130;;b1,0;;m0;;e">
+</treenode>
+<treenode node="init;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;86;9;126;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2894;9;2934;;;;vpos;;v;;a;;r;;d8,87;;b1,0;;m0;;espec;;p">
+</treenode>
+</treenode>
+<treenode node="QRrs;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f4;186;5;209;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;2441;5;2464;;;;vpos;;v;;a;;r;;d15,186;;b0,0;;m0;;e">
+<treenode node="init_rs;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f22;191;9;208;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;2446;9;2463;;;;vpos;;v;;a;;r;;d8,192;;b1,5;;m0;;esymsize;;pgfpoly;;pfcr;;pprim;;pnroots;;ppad;;p">
+</treenode>
+</treenode>
+<treenode node="QRrsblock;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f4;27;5;42;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;2835;5;2850;;;;vpos;;v;;a;;r;;d20,27;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;33;9;41;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2841;9;2849;;;;vpos;;v;;a;;r;;d8,34;;b1,0;;m0;;edl;;pdata;;pel;;pecc;;prs;;p">
+</treenode>
+</treenode>
+<treenode node="QRrsItem;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f4;30;5;182;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;2285;5;2437;;;;vpos;;v;;a;;r;;d19,30;;b0,0;;m0;;e">
+<treenode node="encode_rs_char;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f15;142;9;181;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2397;9;2436;;;;vpos;;v;;a;;r;;d8,143;;b1,0;;m0;;edata;;pparity;;p">
+</treenode>
+<treenode node="init_rs_char;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f22;56;9;139;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;2311;9;2394;;;;vpos;;v;;a;;r;;d8,57;;b1,5;;m0;;esymsize;;pgfpoly;;pfcr;;pprim;;pnroots;;ppad;;p">
+</treenode>
+<treenode node="modnn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php;f15;45;9;53;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2300;9;2308;;;;vpos;;v;;a;;r;;d8,46;;b1,0;;m0;;ex;;p">
+</treenode>
+</treenode>
+<treenode node="QRspec;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f4;41;5;591;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;353;5;903;;;;vpos;;v;;a;;r;;d17,41;;b0,0;;m0;;e">
+<treenode node="createFrame;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;409;9;484;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;721;9;796;;;;vpos;;v;;a;;r;;d8,410;;b1,5;;m0;;eversion;;p">
+</treenode>
+<treenode node="debug;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;487;9;538;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;799;9;850;;;;vpos;;v;;a;;r;;d8,488;;b1,5;;m0;;eframe;;pbinary_mode;;p">
+</treenode>
+<treenode node="getDataLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;88;9;91;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;400;9;403;;;;vpos;;v;;a;;r;;d8,89;;b1,5;;m0;;eversion;;plevel;;p">
+</treenode>
+<treenode node="getECCLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;94;9;97;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;406;9;409;;;;vpos;;v;;a;;r;;d8,95;;b1,5;;m0;;eversion;;plevel;;p">
+</treenode>
+<treenode node="getEccSpec;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;225;9;249;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;537;9;561;;;;vpos;;v;;a;;r;;d8,226;;b1,5;;m0;;eversion;;plevel;;pspec;;p">
+</treenode>
+<treenode node="getFormatInfo;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;369;9;378;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;681;9;690;;;;vpos;;v;;a;;r;;d8,370;;b1,5;;m0;;emask;;plevel;;p">
+</treenode>
+<treenode node="getMinimumVersion;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;112;9;122;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;424;9;434;;;;vpos;;v;;a;;r;;d8,113;;b1,5;;m0;;esize;;plevel;;p">
+</treenode>
+<treenode node="getRemainder;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;106;9;109;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;418;9;421;;;;vpos;;v;;a;;r;;d8,107;;b1,5;;m0;;eversion;;p">
+</treenode>
+<treenode node="getVersionPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;351;9;357;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;663;9;669;;;;vpos;;v;;a;;r;;d8,352;;b1,5;;m0;;eversion;;p">
+</treenode>
+<treenode node="getWidth;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;100;9;103;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;412;9;415;;;;vpos;;v;;a;;r;;d8,101;;b1,5;;m0;;eversion;;p">
+</treenode>
+<treenode node="lengthIndicator;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;134;9;148;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;446;9;460;;;;vpos;;v;;a;;r;;d8,135;;b1,5;;m0;;emode;;pversion;;p">
+</treenode>
+<treenode node="maximumWords;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;151;9;172;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;463;9;484;;;;vpos;;v;;a;;r;;d8,152;;b1,5;;m0;;emode;;pversion;;p">
+</treenode>
+<treenode node="newFrame;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;553;9;578;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;865;9;890;;;;vpos;;v;;a;;r;;d8,554;;b1,5;;m0;;eversion;;p">
+</treenode>
+<treenode node="putAlignmentMarker;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;279;9;295;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;591;9;607;;;;vpos;;v;;a;;r;;d8,280;;b1,5;;m0;;eframe;;pox;;poy;;p">
+</treenode>
+<treenode node="putAlignmentPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;298;9;333;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;610;9;645;;;;vpos;;v;;a;;r;;d8,299;;b1,5;;m0;;eversion;;pframe;;pwidth;;p">
+</treenode>
+<treenode node="putFinderPattern;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;391;9;406;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;703;9;718;;;;vpos;;v;;a;;r;;d8,392;;b1,5;;m0;;eframe;;pox;;poy;;p">
+</treenode>
+<treenode node="rsBlockNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;581;84;581;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;893;84;893;;;;vpos;;v;;a;;r;;d53,581;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsBlockNum1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;582;73;582;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;894;73;894;;;;vpos;;v;;a;;r;;d53,582;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsBlockNum2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;585;73;585;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;897;73;897;;;;vpos;;v;;a;;r;;d53,585;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsDataCodes1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;583;73;583;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;895;73;895;;;;vpos;;v;;a;;r;;d53,583;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsDataCodes2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;586;73;586;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;898;73;898;;;;vpos;;v;;a;;r;;d53,586;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsDataLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;588;113;588;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;900;113;900;;;;vpos;;v;;a;;r;;d53,588;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsEccCodes1;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;584;73;584;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;896;73;896;;;;vpos;;v;;a;;r;;d53,584;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsEccCodes2;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;587;73;587;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;899;73;899;;;;vpos;;v;;a;;r;;d53,587;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="rsEccLength;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;589;97;589;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;901;97;901;;;;vpos;;v;;a;;r;;d53,589;;b1,5;;m0;;espec;;p">
+</treenode>
+<treenode node="serial;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;541;9;544;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;853;9;856;;;;vpos;;v;;a;;r;;d8,542;;b1,5;;m0;;eframe;;p">
+</treenode>
+<treenode node="unserial;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrspec.php;f22;547;9;550;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;859;9;862;;;;vpos;;v;;a;;r;;d8,548;;b1,5;;m0;;ecode;;p">
+</treenode>
+</treenode>
+<treenode node="QRsplit;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f4;32;5;310;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;1969;5;2247;;;;vpos;;v;;a;;r;;d18,32;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;39;9;44;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;1976;9;1981;;;;vpos;;v;;a;;r;;d8,40;;b1,0;;m0;;edataStr;;pinput;;pmodeHint;;p">
+</treenode>
+<treenode node="eat8;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;192;9;244;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2129;9;2181;;;;vpos;;v;;a;;r;;d8,193;;b1,0;;m0;;e">
+</treenode>
+<treenode node="eatAn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;129;9;173;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2066;9;2110;;;;vpos;;v;;a;;r;;d8,130;;b1,0;;m0;;e">
+</treenode>
+<treenode node="eatKanji;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;176;9;189;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2113;9;2126;;;;vpos;;v;;a;;r;;d8,177;;b1,0;;m0;;e">
+</treenode>
+<treenode node="eatNum;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;92;9;126;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2029;9;2063;;;;vpos;;v;;a;;r;;d8,93;;b1,0;;m0;;e">
+</treenode>
+<treenode node="identifyMode;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;65;9;89;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2002;9;2026;;;;vpos;;v;;a;;r;;d8,66;;b1,0;;m0;;epos;;p">
+</treenode>
+<treenode node="isalnumat;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f22;56;9;62;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1993;9;1999;;;;vpos;;v;;a;;r;;d8,57;;b1,5;;m0;;estr;;ppos;;p">
+</treenode>
+<treenode node="isdigitat;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f22;47;9;53;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;1984;9;1990;;;;vpos;;v;;a;;r;;d8,48;;b1,5;;m0;;estr;;ppos;;p">
+</treenode>
+<treenode node="splitString;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;247;9;273;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2184;9;2210;;;;vpos;;v;;a;;r;;d8,248;;b1,0;;m0;;e">
+</treenode>
+<treenode node="splitStringToQRinput;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f22;297;9;309;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;2234;9;2246;;;;vpos;;v;;a;;r;;d8,298;;b1,5;;m0;;estring;;pinput;;pmodeHint;;pcasesensitive;;p">
+</treenode>
+<treenode node="toUpper;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrsplit.php;f15;276;9;294;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;2213;9;2231;;;;vpos;;v;;a;;r;;d8,277;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="qrstr;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f1;49;2;53;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f1;97;2;101;;;;vpos;;v;;a;;r;;d13,49;;b0,0;;m0;;e">
+<treenode node="set;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrconst.php;f16;50;3;52;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f16;98;3;100;;;;vpos;;v;;a;;r;;d72,50;;b1,5;;m0;;esrctab;;px;;py;;prepl;;preplLen;;p">
+</treenode>
+</treenode>
+<treenode node="QRtools;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f4;24;5;166;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f4;157;5;299;;;;vpos;;v;;a;;r;;d18,24;;b0,0;;m0;;e">
+<treenode node="binarize;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;27;9;38;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;160;9;171;;;;vpos;;v;;a;;r;;d8,28;;b1,5;;m0;;eframe;;p">
+</treenode>
+<treenode node="buildCache;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;78;9;97;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;211;9;230;;;;vpos;;v;;a;;r;;d8,79;;b1,5;;m0;;e">
+</treenode>
+<treenode node="clearCache;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;72;9;75;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;205;9;208;;;;vpos;;v;;a;;r;;d8,73;;b1,5;;m0;;e">
+</treenode>
+<treenode node="dumpMask;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;114;9;122;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;247;9;255;;;;vpos;;v;;a;;r;;d8,115;;b1,5;;m0;;eframe;;p">
+</treenode>
+<treenode node="log;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;100;9;111;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;233;9;244;;;;vpos;;v;;a;;r;;d8,101;;b1,5;;m0;;eoutfile;;perr;;p">
+</treenode>
+<treenode node="markTime;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;125;9;134;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;258;9;267;;;;vpos;;v;;a;;r;;d8,126;;b1,5;;m0;;emarkerId;;p">
+</treenode>
+<treenode node="tcpdfBarcodeArray;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;41;9;69;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;174;9;202;;;;vpos;;v;;a;;r;;d8,42;;b1,5;;m0;;ecode;;pmode;;ptcPdfVersion;;p">
+</treenode>
+<treenode node="timeBenchmark;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrtools.php;f22;137;9;164;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f22;270;9;297;;;;vpos;;v;;a;;r;;d8,138;;b1,5;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="SMTP;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f0;48;1;811;;;;vpos;;v;;a;;r&#10;Definition&#10;    class SMTP&#10;&#10;Description&#10;     SMTP is rfc 821 compliant and implements all the rfc 821 SMTP commands except TURN which will always return a not implemented error. SMTP also provides some utility methods for sending mail to an SMTP server. original author: Chris Ryan;;d11,48;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;86;3;92;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    __construct()&#10;&#10;Description&#10;     Initialize the class so that the data is in a known state.;;d32,86;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Authenticate;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;209;3;262;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Authenticate($username, $password)&#10;&#10;Description&#10;     Performs SMTP authentication.  Must be run after running the Hello() method.  Returns true if successfully authenticated.;;d53,209;;b1,0;;m0;;eusername;;ppassword;;p">
+</treenode>
+<treenode node="Close;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;292;3;300;;;;vpos;;v;;avoid;;r&#10;Definition&#10;    Close()&#10;&#10;Description&#10;     Closes the socket and cleans up the state of the class. It is not considered good to use this function without first trying to use QUIT.;;d26,292;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Connect;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;111;3;156;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Connect($host, $port = 0, $tval = 30)&#10;&#10;Description&#10;     Connect to the server specified on the port specified. If the port is not specified use the default SMTP_PORT. If tval is specified then a connection will try and be established with the server for that number of seconds. If tval is not specified the default is 30 seconds to try on the connection.;;d56,111;;b1,0;;m0;;ehost;;pport;;ptval;;p">
+</treenode>
+<treenode node="Connected;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;269;3;283;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Connected()&#10;&#10;Description&#10;     Returns true if connected to a server otherwise false;;d30,269;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Data;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;325;3;448;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Data($msg_data)&#10;&#10;Description&#10;     Issues a data command and sends the msg_data to the server finializing the mail transaction. $msg_data is the message that is to be send with the headers. Each header needs to be on a single line followed by a &lt;CRLF&gt; with the message headers and the message body being seperated by and additional &lt;CRLF&gt;.;;d34,325;;b1,0;;m0;;emsg_data;;p">
+</treenode>
+<treenode node="get_lines;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f10;794;3;809;;;;vpos;;v;;astring;;r&#10;Definition&#10;    get_lines()&#10;&#10;Description&#10;     Read in as many lines as possible either before eof or socket timeout occurs on the operation. With SMTP we can tell if we have more lines to read if the 4th character is &apos;-&apos; symbol. If it is a space then we don&apos;t need to read anything else.;;d31,794;;b3,0;;m0;;e">
+</treenode>
+<treenode node="getError;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;777;3;779;;;;vpos;;v;;aarray;;r&#10;Definition&#10;    getError()&#10;&#10;Description&#10;     Get the current error;;d29,777;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Hello;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;462;3;485;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Hello($host = &apos;&apos;)&#10;&#10;Description&#10;     Sends the HELO command to the smtp server. This makes sure that we and the server are in the same known state.;;d36,462;;b1,0;;m0;;ehost;;p">
+</treenode>
+<treenode node="Mail;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;532;3;562;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Mail($from)&#10;&#10;Description&#10;     Starts a mail transaction from the email address specified in $from. Returns true if successful or false otherwise. If True the mail transaction is started and then one or more Recipient commands may be called followed by a Data command.;;d30,532;;b1,0;;m0;;efrom;;p">
+</treenode>
+<treenode node="Quit;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;575;3;614;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Quit($close_on_error = true)&#10;&#10;Description&#10;     Sends the quit command to the server and then closes the socket if there is no error or the $close_on_error argument is true.;;d47,575;;b1,0;;m0;;eclose_on_error;;p">
+</treenode>
+<treenode node="Recipient;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;628;3;657;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Recipient($to)&#10;&#10;Description&#10;     Sends the command RCPT to the SMTP server with the TO: argument of $to. Returns true if the recipient was accepted false if it was rejected.;;d33,628;;b1,0;;m0;;eto;;p">
+</treenode>
+<treenode node="Reset;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;671;3;701;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Reset()&#10;&#10;Description&#10;     Sends the RSET command to abort and transaction that is currently in progress. Returns true if successful false otherwise.;;d26,671;;b1,0;;m0;;e">
+</treenode>
+<treenode node="SendAndMail;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;719;3;748;;;;vpos;;v;;abool;;r&#10;Definition&#10;    SendAndMail($from)&#10;&#10;Description&#10;     Starts a mail transaction from the email address specified in $from. Returns true if successful or false otherwise. If True the mail transaction is started and then one or more Recipient commands may be called followed by a Data command. This command will send the message to the users terminal if they are logged in and send them an email.;;d37,719;;b1,0;;m0;;efrom;;p">
+</treenode>
+<treenode node="SendHello;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f10;492;3;516;;;;vpos;;v;;abool;;r&#10;Definition&#10;    SendHello($hello, $host)&#10;&#10;Description&#10;     Sends a HELO/EHLO command.;;d44,492;;b3,0;;m0;;ehello;;phost;;p">
+</treenode>
+<treenode node="StartTLS;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;167;3;201;;;;vpos;;v;;abool;;r&#10;Definition&#10;    StartTLS()&#10;&#10;Description&#10;     Initiate a TLS communication with the server.&#10;&#10;Return:&#10;   success;;d29,167;;b1,0;;m0;;e">
+</treenode>
+<treenode node="Turn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;763;3;770;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Turn()&#10;&#10;Description&#10;     This is an optional command for SMTP that this class does not support. This method is here to make the RFC821 Definition complete for this class and __may__ be implimented in the future;;d25,763;;b1,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="str_split;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f2;272;3;283;;;;vpos;;v;;aIf;;r&#10;Definition&#10;    str_split($string, $split_length=1)&#10;&#10;Description&#10;     Convert a string to an array (needed for PHP4 compatibility)&#10;&#10;Parameters:&#10;    string $string - The input string&#10;    int $split_length - Maximum length of the chunk&#10;&#10;Return:&#10;   the optional split_length  parameter is specified, the returned array will be broken down into chunks with each being split_length  in length, otherwise each chunk will be one character in length;;d47,272;;b0,0;;m0;;estring $string;;pint $split_length;;p">
+</treenode>
+</phptree>
+</codestructure>
