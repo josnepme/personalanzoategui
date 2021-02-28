@@ -51,7 +51,7 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 		<link href="../Recursos/log.ico" rel="shortcut icon" type="image/x-icon"/>
 
 		<title>
-			Menu
+			Dirección de Personal
 		</title>
 
 
@@ -150,9 +150,6 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="flexRadioDefault" id="radiocintegral" value="2">
 							<label class="form-check-label" for="radiocintegral">
-								<span class="badge badge-pill badge-warning">
-									En Construcción
-								</span>
 								Constancia Integral
 							</label>
 						</div>
@@ -164,8 +161,6 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 								</span>
 							</div>
 						</div>
-
-
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="boton botonxdefecto btn-md" id="bt_dconstancia" name="bt_dconstancia">
@@ -371,7 +366,7 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 										</div>
 
 									</div>
-									</br>
+									<br>
 
 									<button type="button" class="boton botonxdefecto btn-md" id="bt_salvarcorreo" name="bt_salvarcorreo">
 										Cambiar Correo
@@ -390,20 +385,20 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 										Cambiar Usuario
 									</button>
 									<br>
-										<hr class="border-top mt-3 mb-3 text-white" />
-										<div class="row mt-3">
-											<div class="col-md-6">
-												<label class="labels">
-													Contraseña Antigua:
-												</label><input type="password" id="txtclave1" class="form-control" placeholder="Contraseña antigua" value="">
-											</div>
-											<div class="col-md-6">
-												<label class="labels">
-													Contraseña nueva:
-												</label><input type="password" id="txtclave2" class="form-control" value="" placeholder="Contraseña nueva">
-											</div>
+									<hr class="border-top mt-3 mb-3 text-white" />
+									<div class="row mt-3">
+										<div class="col-md-6">
+											<label class="labels">
+												Contraseña Antigua:
+											</label><input type="password" id="txtclave1" class="form-control" placeholder="Contraseña antigua" value="">
 										</div>
-									</br>
+										<div class="col-md-6">
+											<label class="labels">
+												Contraseña nueva:
+											</label><input type="password" id="txtclave2" class="form-control" value="" placeholder="Contraseña nueva">
+										</div>
+									</div>
+									<br>
 									<button type="button" class="boton botonxdefecto btn-md" id="bt_salvarclave" name="bt_salvarclave">
 										Cambiar Contraseña
 									</button>
@@ -468,33 +463,75 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 					</div>
 					<div class="modal-body">
 
-						<i class="fa fa-address-card text-white">  <strong>EMPLEADO: </strong> 
+						<i class="fa fa-address-card text-white">
+							<strong>
+								EMPLEADO:
+							</strong>
 							<label id="EMPLEADO" class="text-info">
 							</label>
 						</i>
 						<br/>
-						<i class="fa fa-venus-mars text-white">  <strong>SEXO: </strong> 
+						<i class="fa fa-venus-mars text-white">
+							<strong>
+								SEXO:
+							</strong>
 							<label id="sexo" class="text-info">
 							</label>
 						</i>
 						<br/>
-						<i class="fa fa-calendar text-white">  <strong>FECHA DE NACIMIENTO: </strong> 
-							<label id="fechan" class="text-info">   
+						<i class="fa fa-address-book text-white">
+							<strong>
+								ESTADO CIVIL:
+							</strong>
+							<label id="edocivil" class="text-info">
 							</label>
 						</i>
 						<br/>
-						<i class="fa fa-map-marker text-white">  <strong>LUGAR DE NACIMIENTO: </strong>
-							<label id="lugarn" class="text-info">  
+						<i class="fa fa-calendar text-white">
+							<strong>
+								FECHA DE NACIMIENTO:
+							</strong>
+							<label id="fechan" class="text-info">
 							</label>
 						</i>
 						<br/>
-						<i class="fa fa-compass text-white">  <strong>DIRECCIÓN: </strong>
-							<label id="dire" class="text-info">  
+						<i class="fa fa-map-marker text-white">
+							<strong>
+								LUGAR DE NACIMIENTO:
+							</strong>
+							<label id="lugarn" class="text-info">
 							</label>
 						</i>
 						<br/>
-						<i class="fa fa-phone-square text-white">  <strong>TELEFONOS: </strong>
-							<label id="tele" class="text-info">  
+						<i class="fa fa-compass text-white">
+							<strong>
+								DIRECCIÓN:
+							</strong>
+							<label id="dire" class="text-info">
+							</label>
+						</i>
+						<br/>
+						<i class="fa fa-phone-square text-white">
+							<strong>
+								TELEFONOS:
+							</strong>
+							<label id="tele" class="text-info">
+							</label>
+						</i>
+						<br/>
+						<i class="fa fa-child text-white">
+							<strong>
+								N° HIJOS:
+							</strong>
+							<label id="nhijos" class="text-info">
+							</label>
+						</i>
+						<br/>
+						<i class="fa fa-clock-o text-white">
+							<strong>
+								ANTIGUEDAD:
+							</strong>
+							<label id="antiguedad" class="text-info">
 							</label>
 						</i>
 					</div>
@@ -511,7 +548,101 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 			</div>
 		</div>
 
+		<!--Informacion Laboral-->
 
+		<div class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog" tabindex="-1" id="modallaboral" name="modallaboral">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content bg-dark text-white">
+					<div class="modal-header">
+						<h5 class="modal-title">
+							Datos Laborales
+						</h5>
+
+					</div>
+					<div class="modal-body">
+
+						<div class="form-group">
+							<label for="selectnominalaboral">
+								Nominas:
+							</label>
+							<select class="form-control bg-dark text-white" id="selectnominalaboral">
+
+							</select>
+						</div>
+
+						<div class="d-flex justify-content-center">
+							<div class="spinner-border text-info" role="status" id="loaderlaboral">
+								<span class="sr-only">
+									Procesando...
+								</span>
+							</div>
+						</div>
+						<strong>
+							CARGO:
+						</strong>
+						<label id="cargolb" class="text-info">
+						</label>
+						<br>
+						<strong>
+							SALARIO:
+						</strong>
+						<label id="salariolb" class="text-info">
+						</label>
+						<br>
+						<strong>
+							FECHA DE INGRESO:
+						</strong>
+						<label id="fechaingresolb" class="text-info">
+						</label>
+						<br>
+						<strong>
+							UBICACION ADMINISTRATIVA:
+						</strong>
+						<label id="ubicacionlb" class="text-info">
+						</label>
+						<br>
+						<strong>
+							UNIDAD ADMINISTRATIVA:
+						</strong>
+						<label id="unidadlb" class="text-info">
+						</label>
+						<br>
+						<div class="table-responsive">
+							<table class="table table-striped table-bordered table-dark">
+								<thead>
+									<tr>
+										<th scope="col" align=center width=5%>
+											CONCEPTO
+										</th>
+										<th scope="col">
+											DESCRIPCIÓN
+										</th>
+										<th scope="col">
+											ASIGNACIONES
+										</th>
+										<th scope="col">
+											DEDUCCIONES
+										</th>
+									</tr>
+								</thead>
+								<tbody id="tbodyconcepto">
+
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+
+					<div class="modal-footer">
+
+						<button type="button" class="boton botonxdefecto btn-md" id="bt_cerrar_dl" name="bt_cerrar_dl" data-dismiss="modal">
+							Cerrar
+						</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<!--fin de mensajes modales-->
@@ -598,10 +729,7 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 											</a>
 										</li>
 										<li>
-											<a href="#">
-												<span class="badge badge-pill badge-warning">
-													En Construcción
-												</span>
+											<a href="#" id="datosl">
 												Datos Laborales
 											</a>
 										</li>
@@ -916,7 +1044,7 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 
 				</div>
 
-				</br></br></br></br>
+				<br><br><br><br>
 				<div class="footer text-light text-center" style="margin-bottom:1">
 					<p>
 						<?php
@@ -953,6 +1081,7 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 					$('#loaderrecibo').hide();
 					$('#loadercertificado').hide();
 					$('#loaderfoto').hide();
+					$('#loaderlaboral').hide();
 					//	$('#principal').load('main.php');
 
 				});
@@ -1123,8 +1252,33 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 								});
 							return false;
 						}else{
+							var cedula = document.getElementById("cedula_trab").value;
+							
+							$.ajax({
+									type: 'POST',
+									datatype: "html",
+									url: '../Operaciones/constanciasI.php',
+									data: {
+										'id':combo,"cedula":cedula
+									},
 
-							Toast.fire({icon: 'info',title:'En Construcción'});
+									beforeSend: function(){
+										Toast.fire({icon: 'info',title: 'Procesando solicitud...'});
+										$('#modalconstancia').modal('hide');
+									},
+									success: function(resp) {
+										window.location.href='../Operaciones/descargaconstancia.php';
+
+
+									},
+									fail:function(){
+
+										Toast.fire({icon: 'error',title: resp});
+									}
+
+								});
+							return false;
+
 						}
 
 					}else{
@@ -1295,7 +1449,18 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 					mostrardatosper();
 
 				});
+			$('#datosl').on('click', function(){
 
+					$('#modallaboral').modal({backdrop: 'static', keyboard: false});
+					$("#tbodyconcepto").html('');
+					document.getElementById('cargolb').innerHTML = '' ;
+					document.getElementById('salariolb').innerHTML = '' ;
+					document.getElementById('fechaingresolb').innerHTML = '' ;
+					document.getElementById('ubicacionlb').innerHTML = '' ;
+					document.getElementById('unidadlb').innerHTML = '';
+					llenarnominaLab();
+
+				});
 		</script>
 
 		<!--/******************************************Funciones********************************************/-->
@@ -1800,25 +1965,44 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 							sex = 'Femenino';
 						}
 
-     					var fnac = retorno.fechan;
+						var fnac = retorno.fechan;
 						var lnac = retorno.lnac;
 						var telef = retorno.telefonofijo;
 						var telem = retorno.telefonomovil;
 						var tele;
-						
+
 						if(telef != '' && telem != ''){
 							tele = telef+', '+telem;
 						}else{
 							tele = telef+telem;
 						}
-						
-						
+						var nhijos=retorno.hijos;
+						var antiguedad=retorno.antiguedad;
+						var edocivil=retorno.edocivil;
+						switch (edocivil) {
+							case 'S':
+							edocivil='Soltero(a)';
+							break
+							case 'D':
+							edocivil='Divorciado(a)';
+							break
+							case 'C':
+							edocivil='Casado(a)';
+							break
+
+							default:
+							edocivil='Viudo(a)';
+						}
+
 						document.getElementById('EMPLEADO').innerHTML =nacio+cedu+ ', '+nom+' '+ape ;
 						document.getElementById('sexo').innerHTML = sex ;
 						document.getElementById('fechan').innerHTML = fnac ;
 						document.getElementById('lugarn').innerHTML = lnac ;
 						document.getElementById('dire').innerHTML = dire ;
 						document.getElementById('tele').innerHTML = tele ;
+						document.getElementById('nhijos').innerHTML = nhijos ;
+						document.getElementById('antiguedad').innerHTML = antiguedad+' Años' ;
+						document.getElementById('edocivil').innerHTML = edocivil ;
 
 					}).fail(function(){
 
@@ -1826,9 +2010,79 @@ if(isset($_SESSION['sess_username']) && $_SESSION['sess_username'] != "" && isse
 
 					});
 
+			}
+			function llenarnominaLab(){
+				$("#selectnominalaboral option").remove();
+				$("#selectnominalaboral").append('<option value=""  selected disabled >-- Seleccione una Nomina--</option>');
 
+
+
+				var cedu = $("#cedula_trab").val();
+
+				$.ajax({
+						type: 'POST',
+						url: '../Operaciones/nominalaboral.php',
+						data: {
+							'cedula':cedu
+						},
+						beforeSend: function(){
+							Toast.fire({icon: 'info',title:'Cargando las Nominas...'});
+							$('#loaderlaboral').show();
+						}
+					})
+				.done(function(datos){
+						$("#selectnominalaboral").append(datos.opcion);
+						$('#loaderlaboral').hide();
+						$("#selectnominalaboral").change(function(){
+								var nom = document.getElementById("selectnominalaboral").value;
+
+								llenartablas(nom);
+
+							});
+					})
+				.fail(function(){
+
+						Toast.fire({icon: 'error',title:'Hubo un error Procesando solicitud...'});
+					})
+			}
+
+			function llenartablas(tip){
+
+
+				var cedu = $("#cedula_trab").val();
+				$.ajax({
+						type: 'POST',
+						url: '../Operaciones/muestralaboral.php',
+						data: {
+							'tip':tip,'cedula':cedu
+						},
+						beforeSend: function(){
+							$('#loaderlaboral').show();
+							Toast.fire({icon: 'info',title:'LLenando los conceptos por favor espere...'});
+
+						}
+					})
+				.done(function(datos){
+
+
+						document.getElementById('cargolb').innerHTML = datos.cargo ;
+						document.getElementById('salariolb').innerHTML = datos.salario ;
+						document.getElementById('fechaingresolb').innerHTML = datos.fing ;
+						document.getElementById('ubicacionlb').innerHTML = 'SECTOR: '+datos.sector+' PROGRAMA: '+datos.programa+' SUBPROGRAMA: '+datos.subprograma+' PROYECTO: '+datos.proyecto+' ACTIVIDAD: '+datos.actividad ;
+						document.getElementById('unidadlb').innerHTML = datos.unidad ;
+
+						$("#tbodyconcepto").html(datos.valor);
+
+						$('#loaderlaboral').hide();
+
+					})
+				.fail(function(){
+
+						Toast.fire({icon: 'error',title:'Hubo un error Procesando solicitud...'});
+					})
 
 			}
+
 		</script>
 
 	</body>

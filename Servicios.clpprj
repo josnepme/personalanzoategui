@@ -2,7 +2,8 @@
 <project name="C:\xampp\htdocs\Servicios\Servicios.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/Servicios/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Servicios/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="C:\xampp\htdocs\Servicios\Formularios\menu.php"/>
-		<file name="C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrrscode.php">
@@ -578,9 +579,12 @@
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\registrar.php" crc="1610283718"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\periodo_recibos.php" crc="1611448474"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\nominas_recibos.php" crc="1611092192"/>
-		<file name="C:\xampp\htdocs\Servicios\Operaciones\muestrapersonal.php" crc="1613397338"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\nominalaboral.php" crc="1614365394"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\muestrapersonal.php" crc="1614369824"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php" crc="1614514853"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\mostrarimagen.php" crc="1612824697"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\guardarfoto.php" crc="1612824236"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\globales.php" crc="1614358099"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php" crc="1614274913"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php" crc="1612475112"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php" crc="1614276837"/>
@@ -589,6 +593,7 @@
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\descargacertificado.php" crc="1611795561"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\descarga_recibo.php" crc="1611449236"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php" crc="1614274489"/>
+		<file name="C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php" crc="1614532447"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\cerrarsesion.php" crc="1608942063"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\cargos_constancia.php" crc="1610895015"/>
 		<file name="C:\xampp\htdocs\Servicios\Operaciones\cambioresp.php" crc="1612622664"/>
@@ -607,7 +612,7 @@
 		<file name="C:\xampp\htdocs\Servicios\js\datatables.js" crc="1608295928"/>
 		<file name="C:\xampp\htdocs\Servicios\Formularios\registro.php" crc="1614275068"/>
 		<file name="C:\xampp\htdocs\Servicios\Formularios\recuperarpass.php" crc="1614274317"/>
-		<file name="C:\xampp\htdocs\Servicios\Formularios\menu.php" crc="1613404981"/>
+		<file name="C:\xampp\htdocs\Servicios\Formularios\menu.php" crc="1614515219"/>
 		<file name="C:\xampp\htdocs\Servicios\Formularios\main.php" crc="1611965009"/>
 		<file name="C:\xampp\htdocs\Servicios\font-awesome\scss\font-awesome.scss" crc="1566495330"/>
 		<file name="C:\xampp\htdocs\Servicios\font-awesome\scss\_variables.scss" crc="1566495330"/>
@@ -641,7 +646,7 @@
 		<file name="C:\xampp\htdocs\Servicios\font-awesome\css\font-awesome.css" crc="1566495330"/>
 		<file name="C:\xampp\htdocs\Servicios\font-awesome\HELP-US-OUT.txt" crc="1566495330"/>
 		<file name="C:\xampp\htdocs\Servicios\Estilos\registro.css" crc="1610214134"/>
-		<file name="C:\xampp\htdocs\Servicios\Estilos\menu.css" crc="1612630586"/>
+		<file name="C:\xampp\htdocs\Servicios\Estilos\menu.css" crc="1614461145"/>
 		<file name="C:\xampp\htdocs\Servicios\Estilos\index.css" crc="1610663062"/>
 		<file name="C:\xampp\htdocs\Servicios\Estilos\datatables.min.css" crc="1608295928"/>
 		<file name="C:\xampp\htdocs\Servicios\Conexion\conecta.php" crc="1609646281"/>

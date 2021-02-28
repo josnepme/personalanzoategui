@@ -1,20 +1,42 @@
 <codestructure version="5.15">
 <phptree>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f9;6;32;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Operaciones/globales.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f9;8;36;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f9;5;31;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/phpqrcode/qrlib.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f9;7;42;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\muestrapersonal.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\nominalaboral.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\periodo_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\nominas_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f9;6;32;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Operaciones/globales.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f9;3;36;3;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f9;8;36;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;2;31;2;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f9;5;31;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/phpqrcode/qrlib.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f9;7;42;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f9;2;32;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../Operaciones/globales.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f9;3;36;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/class.phpmailer.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;2;47;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="../utilidades/class.smtp.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;3;42;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
 <treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;6;32;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
 <treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;5;31;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
 <treenode node="../utilidades/phpqrcode/qrlib.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f9;7;42;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\muestrapersonal.php;f9;1;32;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\verifica_usuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\verifica_registro.php;f9;27;32;27;;C:\xampp\htdocs\Servicios\Operaciones\registrar.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\mostrarimagen.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\guardarfoto.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cargos_constancia.php;f11;3;34;3;;C:\xampp\htdocs\Servicios\Operaciones\cambioresp.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambioclave.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambio_correo.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambiausuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\busca_anno.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\borrarfoto.php;f10;1;33;1;;C:\xampp\htdocs\Servicios\Operaciones\autenticacion_login.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f9;1;32;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="../Conexion/conecta.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\verifica_usuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\verifica_registro.php;f9;27;32;27;;C:\xampp\htdocs\Servicios\Operaciones\registrar.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\periodo_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\mostrarimagen.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\guardarfoto.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\cargos_constancia.php;f11;3;34;3;;C:\xampp\htdocs\Servicios\Operaciones\cambioresp.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambioclave.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambio_correo.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\cambiausuario.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\busca_anno.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\borrarfoto.php;f10;1;33;1;;C:\xampp\htdocs\Servicios\Operaciones\autenticacion_login.php;f9;2;32;2;;C:\xampp\htdocs\Servicios\Operaciones\nominas_recibos.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;3;32;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f9;1;32;1;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f9;1;32;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="../utilidades/class.phpmailer.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;3;47;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="../utilidades/class.phpmailer.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;3;47;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;2;47;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="../utilidades/class.smtp.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;4;42;4;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
-<treenode node="../utilidades/class.smtp.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f14;4;42;4;;C:\xampp\htdocs\Servicios\Operaciones\enviarmensaje.php;f14;3;42;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
-</treenode>
-<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f9;2;31;2;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;2;31;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+<treenode node="../utilidades/fpdf.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f9;2;31;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
 <treenode node="../utilidades/seguridad.php;PHP:PHP Include;C:\xampp\htdocs\Servicios\Operaciones\registrar.php;f9;3;36;3;;C:\xampp\htdocs\Servicios\Operaciones\cambioclave.php;f9;2;36;2;;C:\xampp\htdocs\Servicios\Operaciones\autenticacion_login.php;f9;3;36;3;;C:\xampp\htdocs\Servicios\Operaciones\enviarmail.php;f9;2;36;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
 </treenode>
@@ -288,24 +310,24 @@
 <treenode node="setFrameAt;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\qrencode.php;f15;326;9;329;;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\phpqrcode.php;f15;3134;9;3137;;;;vpos;;v;;a;;r;;d8,327;;b1,0;;m0;;eat;;pval;;p">
 </treenode>
 </treenode>
-<treenode node="PDF;PHP:Class Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f0;118;1;309;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f0;9;1;188;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f0;15;1;188;;;;vpos;;v;;aFPDF;;c;;r;;d22,15;;b0,0;;m0;;e">
-<treenode node="_Arc;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;168;2;172;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;59;2;63;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;65;2;69;;;;vpos;;v;;a;;r;;d44,65;;b0,0;;m0;;ex1;;py1;;px2;;py2;;px3;;py3;;p">
+<treenode node="PDF;PHP:Class Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f0;15;1;188;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f0;118;1;309;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;72;1;251;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f0;9;1;188;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;72;1;251;;;;vpos;;v;;aFPDF;;c;;r;;d22,72;;b0,0;;m0;;e">
+<treenode node="_Arc;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;65;2;69;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;168;2;172;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;122;2;126;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;59;2;63;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;122;2;126;;;;vpos;;v;;a;;r;;d44,122;;b0,0;;m0;;ex1;;py1;;px2;;py2;;px3;;py3;;p">
 </treenode>
-<treenode node="CloseTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;238;2;246;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;129;2;137;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;135;2;143;;;;vpos;;v;;a;;r;;d24,135;;b0,0;;m0;;etag;;p">
+<treenode node="CloseTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;135;2;143;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;238;2;246;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;192;2;200;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;129;2;137;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;192;2;200;;;;vpos;;v;;a;;r;;d24,192;;b0,0;;m0;;etag;;p">
 </treenode>
-<treenode node="Footer;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;299;2;308;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;183;2;186;;;;vpos;;v;;a;;r;;d18,183;;b0,0;;m0;;e">
+<treenode node="Footer;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;299;2;308;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;246;2;249;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;183;2;186;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;246;2;249;;;;vpos;;v;;a;;r;;d18,246;;b0,0;;m0;;e">
 </treenode>
-<treenode node="Header;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;268;2;297;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;159;2;182;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;165;2;186;;;;vpos;;v;;a;;r;;d18,165;;b0,0;;m0;;e">
+<treenode node="Header;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;165;2;186;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;268;2;297;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;222;2;245;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;159;2;182;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;222;2;245;;;;vpos;;v;;a;;r;;d18,222;;b0,0;;m0;;e">
 </treenode>
-<treenode node="OpenTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;213;2;236;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;104;2;127;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;110;2;133;;;;vpos;;v;;a;;r;;d29,110;;b0,0;;m0;;etag;;pprop;;p">
+<treenode node="OpenTag;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;110;2;133;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;213;2;236;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;167;2;190;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;104;2;127;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;167;2;190;;;;vpos;;v;;a;;r;;d29,167;;b0,0;;m0;;etag;;pprop;;p">
 </treenode>
-<treenode node="PutLink;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;258;2;265;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;149;2;156;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;155;2;162;;;;vpos;;v;;a;;r;;d28,155;;b0,0;;m0;;eURL;;ptxt;;p">
+<treenode node="PutLink;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;155;2;162;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;258;2;265;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;212;2;219;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;149;2;156;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;212;2;219;;;;vpos;;v;;a;;r;;d28,212;;b0,0;;m0;;eURL;;ptxt;;p">
 </treenode>
-<treenode node="RoundedRect;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;120;2;166;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;11;2;57;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;17;2;63;;;;vpos;;v;;a;;r;;d73,17;;b0,0;;m0;;ex;;py;;pw;;ph;;pr;;pcorners;;pstyle;;p">
+<treenode node="RoundedRect;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;17;2;63;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;120;2;166;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;74;2;120;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;11;2;57;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;74;2;120;;;;vpos;;v;;a;;r;;d73,74;;b0,0;;m0;;ex;;py;;pw;;ph;;pr;;pcorners;;pstyle;;p">
 </treenode>
-<treenode node="SetStyle;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;248;2;256;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;139;2;147;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;145;2;153;;;;vpos;;v;;a;;r;;d32,145;;b0,0;;m0;;etag;;penable;;p">
+<treenode node="SetStyle;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;145;2;153;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;248;2;256;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;202;2;210;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;139;2;147;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;202;2;210;;;;vpos;;v;;a;;r;;d32,202;;b0,0;;m0;;etag;;penable;;p">
 </treenode>
-<treenode node="WriteHTML;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;180;2;211;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;71;2;102;;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;77;2;108;;;;vpos;;v;;a;;r;;d26,77;;b0,0;;m0;;ehtml;;p">
+<treenode node="WriteHTML;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\generacertificado.php;f1;77;2;108;;C:\xampp\htdocs\Servicios\Operaciones\genera_recibo.php;f1;180;2;211;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f1;134;2;165;;C:\xampp\htdocs\Servicios\Operaciones\constanciasN.php;f1;71;2;102;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f1;134;2;165;;;;vpos;;v;;a;;r;;d26,134;;b0,0;;m0;;ehtml;;p">
 </treenode>
 </treenode>
 <treenode node="PHPMailer;PHP:Class Name;C:\xampp\htdocs\Servicios\utilidades\class.phpmailer.php;f0;42;1;2311;;;;vpos;;v;;a;;r&#10;Definition&#10;    class PHPMailer&#10;&#10;Description&#10;     PHPMailer - PHP email transport class NOTE: Requires PHP version 5 or later;;d16,42;;b0,0;;m0;;e">
@@ -983,6 +1005,30 @@
 </treenode>
 <treenode node="Turn;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\class.smtp.php;f9;763;3;770;;;;vpos;;v;;abool;;r&#10;Definition&#10;    Turn()&#10;&#10;Description&#10;     This is an optional command for SMTP that this class does not support. This method is here to make the RFC821 Definition complete for this class and __may__ be implimented in the future;;d25,763;;b1,0;;m0;;e">
 </treenode>
+</treenode>
+<treenode node="anio;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;141;1;143;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;141;1;143;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;382;1;384;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;382;1;384;;;;vpos;;v;;a;;r;;d21,382;;b0,0;;m0;;efecha;;p">
+</treenode>
+<treenode node="campoadicionalper;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;12;1;24;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;12;1;24;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;253;1;265;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;253;1;265;;;;vpos;;v;;a;;r;;d43,253;;b0,0;;m0;;eidcampo;;pficha;;p">
+</treenode>
+<treenode node="codnomi;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;173;1;203;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;173;1;203;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;414;1;444;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;414;1;444;;;;vpos;;v;;a;;r;;d36,414;;b0,0;;m0;;ecedula;;ptip;;pfrec;;p">
+</treenode>
+<treenode node="concepto;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;26;1;52;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;26;1;52;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;267;1;293;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;267;1;293;;;;vpos;;v;;a;;r;;d44,267;;b0,0;;m0;;ecodnom;;pficha;;pcconcepto;;p">
+</treenode>
+<treenode node="conceptoperiodo;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;80;1;101;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;80;1;101;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;321;1;342;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;321;1;342;;;;vpos;;v;;a;;r;;d54,321;;b0,0;;m0;;eficha;;pcodcon;;pdesde;;phasta;;p">
+</treenode>
+<treenode node="conceptoperiodocant;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;104;1;126;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;104;1;126;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;345;1;367;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;345;1;367;;;;vpos;;v;;a;;r;;d59,345;;b0,0;;m0;;eficha;;pcodcon;;pdesde;;phasta;;p">
+</treenode>
+<treenode node="conceptovarios;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;54;1;77;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;54;1;77;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;295;1;318;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;295;1;318;;;;vpos;;v;;a;;r;;d50,295;;b0,0;;m0;;ecodnom;;pficha;;pcconcepto;;p">
+</treenode>
+<treenode node="dia;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;129;1;131;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;129;1;131;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;370;1;372;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;370;1;372;;;;vpos;;v;;a;;r;;d20,370;;b0,0;;m0;;efecha;;p">
+</treenode>
+<treenode node="lunes;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;159;1;171;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;159;1;171;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;400;1;412;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;400;1;412;;;;vpos;;v;;a;;r;;d22,400;;b0,0;;m0;;efecha;;p">
+</treenode>
+<treenode node="mes;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;135;1;137;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;135;1;137;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;376;1;378;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;376;1;378;;;;vpos;;v;;a;;r;;d20,376;;b0,0;;m0;;efecha;;p">
+</treenode>
+<treenode node="sacartipop;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;49;1;69;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;49;1;69;;;;vpos;;v;;a;;r;;d24,49;;b0,0;;m0;;eid;;p">
+</treenode>
+<treenode node="SI;PHP:Function Name;C:\xampp\htdocs\Servicios\Operaciones\sacar antiguedad.php;f0;147;1;158;;C:\xampp\htdocs\Servicios\Operaciones\muestralaboral.php;f0;147;1;158;;C:\xampp\htdocs\Servicios\Operaciones\NewFile.php;f0;388;1;399;;C:\xampp\htdocs\Servicios\Operaciones\constanciasI.php;f0;388;1;399;;;;vpos;;v;;a;;r;;d29,388;;b0,0;;m0;;econdicion;;pv;;pf;;p">
 </treenode>
 <treenode node="str_split;PHP:Function Name;C:\xampp\htdocs\Servicios\utilidades\phpqrcode\bindings\tcpdf\qrcode.php;f2;272;3;283;;;;vpos;;v;;aIf;;r&#10;Definition&#10;    str_split($string, $split_length=1)&#10;&#10;Description&#10;     Convert a string to an array (needed for PHP4 compatibility)&#10;&#10;Parameters:&#10;    string $string - The input string&#10;    int $split_length - Maximum length of the chunk&#10;&#10;Return:&#10;   the optional split_length  parameter is specified, the returned array will be broken down into chunks with each being split_length  in length, otherwise each chunk will be one character in length;;d47,272;;b0,0;;m0;;estring $string;;pint $split_length;;p">
 </treenode>
